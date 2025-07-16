@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is used for FileProvider configuration to share files securely -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- External storage paths -->
+    <external-path 
+        name="external_files" 
+        path="." />
+    
+    <!-- App's external files directory -->
+    <external-files-path 
+        name="my_images" 
+        path="Pictures" />
+    
+    <external-files-path 
+        name="my_documents" 
+        path="Documents" />
+    
+    <!-- App's internal files directory -->
+    <files-path 
+        name="internal_files" 
+        path="." />
+    
+    <!-- App's cache directory -->
+    <cache-path 
+        name="cache" 
+        path="." />
+    
+    <!-- App's external cache directory -->
+    <external-cache-path 
+        name="external_cache" 
+        path="." />
+</paths>

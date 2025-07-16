@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is required for Android 12+ (API 31+) for backup and restore functionality -->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Include all shared preferences by default -->
+        <include domain="sharedpref" path="."/>
+        <!-- Include internal app data -->
+        <include domain="database" path="."/>
+        <include domain="file" path="."/>
+        <!-- Exclude any cache files -->
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="file" path="no_backup/"/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- Include all data for device-to-device transfer -->
+        <include domain="sharedpref" path="."/>
+        <include domain="database" path="."/>
+        <include domain="file" path="."/>
+        <!-- Exclude cache and temporary files -->
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="file" path="tmp/"/>
+    </device-transfer>
+</data-extraction-rules>

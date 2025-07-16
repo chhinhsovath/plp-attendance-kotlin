@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    
+    <string name="app_name">ការវត្តមានអប់រំ</string>
+    <string name="app_title">ប្រព័ន្ធការវត្តមានអប់រំកម្ពុជា</string>
+    
+    
+    <string name="ok">យល់ព្រម</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="delete">លុប</string>
+    <string name="edit">កែប្រែ</string>
+    <string name="share">ចែករំលែក</string>
+    <string name="refresh">ធ្វើឱ្យស្រស់</string>
+    <string name="back">ត្រលប់ក្រោយ</string>
+    <string name="next">បន្ទាប់</string>
+    <string name="previous">មុន</string>
+    <string name="close">បិទ</string>
+    <string name="submit">ដាក់ស្នើ</string>
+    <string name="confirm">បញ្ជាក់</string>
+    <string name="view_all">មើលទាំងអស់</string>
+    <string name="loading">កំពុងផ្ទុក...</string>
+    <string name="error">កំហុស</string>
+    <string name="success">ជោគជ័យ</string>
+    <string name="warning">ការព្រមាន</string>
+    
+    
+    <string name="login">ចូល</string>
+    <string name="logout">ចេញ</string>
+    <string name="username">ឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="password">ពាក្យសម្ងាត់</string>
+    <string name="email">អ៊ីមែល</string>
+    <string name="phone">លេខទូរស័ព្ទ</string>
+    <string name="forgot_password">ភ្លេចពាក្យសម្ងាត់?</string>
+    <string name="login_success">ចូលបានជោគជ័យ</string>
+    <string name="login_failed">ចូលមិនបានជោគជ័យ</string>
+    <string name="invalid_credentials">ឈ្មោះអ្នកប្រើប្រាស់ ឬពាក្យសម្ងាត់មិនត្រឹមត្រូវ</string>
+    
+    
+    <string name="dashboard">ផ្ទាំងគ្រប់គ្រង</string>
+    <string name="welcome_back">សូមស្វាគមន៍ការត្រលប់មកវិញ</string>
+    <string name="todays_summary">សង្ខេបថ្ងៃនេះ</string>
+    <string name="quick_actions">សកម្មភាពរហ័ស</string>
+    <string name="recent_activity">សកម្មភាពថ្មីៗ</string>
+    <string name="analytics">ការវិភាគ</string>
+    <string name="performance">ការអនុវត្ត</string>
+    
+    
+    <string name="attendance">ការវត្តមាន</string>
+    <string name="status">ស្ថានភាព</string>
+    <string name="checked_in">បានចូលការងារ</string>
+    <string name="checked_out">បានចេញពីការងារ</string>
+    <string name="check_in">ចូលការងារ</string>
+    <string name="check_out">ចេញពីការងារ</string>
+    <string name="present">មាន</string>
+    <string name="absent">អវត្តមាន</string>
+    <string name="late">យឺត</string>
+    <string name="on_time">ទាន់ពេល</string>
+    <string name="attendance_rate">អត្រាវត្តមាន</string>
+    <string name="punctuality_rate">អត្រាវត្តមានទាន់ពេល</string>
+    <string name="check_in_time">ពេលចូលការងារ</string>
+    <string name="check_out_time">ពេលចេញពីការងារ</string>
+    <string name="working_hours">ម៉ោងធ្វើការ</string>
+    <string name="total_hours">ម៉ោងសរុប</string>
+    <string name="check_in_success">ចូលការងារបានជោគជ័យ</string>
+    <string name="check_out_success">ចេញពីការងារបានជោគជ័យ</string>
+    <string name="outside_geofence">អ្នកនៅខាងក្រៅតំបន់កំណត់</string>
+    
+    
+    <string name="leave">ការច្បាប់</string>
+    <string name="leave_balance">សល់ច្បាប់</string>
+    <string name="leave_history">ប្រវត្តិការច្បាប់</string>
+    <string name="leave_type">ប្រភេទច្បាប់</string>
+    <string name="start_date">កាលបរិច្ឆេទចាប់ផ្តើម</string>
+    <string name="end_date">កាលបរិច្ឆេទបញ្ចប់</string>
+    <string name="reason">មូលហេតុ</string>
+    <string name="annual_leave">ច្បាប់ប្រចាំឆ្នាំ</string>
+    <string name="sick_leave">ច្បាប់ឈប់សម្រាក</string>
+    <string name="personal_leave">ច្បាប់ផ្ទាល់ខ្លួន</string>
+    <string name="maternity_leave">ច្បាប់សម្រាលកូន</string>
+    <string name="emergency_leave">ច្បាប់បន្ទាន់</string>
+    <string name="approved">បានអនុម័ត</string>
+    <string name="rejected">បានបដិសេធ</string>
+    <string name="pending">កំពុងរង់ចាំ</string>
+    <string name="days_requested">ចំនួនថ្ងៃស្នើសុំ</string>
+    <string name="remaining_balance">សល់នៅ</string>
+    <string name="leave_submitted">ដាក់ស្នើច្បាប់បានជោគជ័យ</string>
+    
+    
+    <string name="mission">បេសកកម្ម</string>
+    <string name="missions">បេសកកម្មទាំងអស់</string>
+    <string name="mission_tracking">តាមដានបេសកកម្ម</string>
+    <string name="start_mission">ចាប់ផ្តើមបេសកកម្ម</string>
+    <string name="end_mission">បញ្ចប់បេសកកម្ម</string>
+    <string name="mission_details">លម្អិតបេសកកម្ម</string>
+    <string name="destination">គោលដៅ</string>
+    <string name="purpose">គោលបំណង</string>
+    <string name="distance">ចម្ងាយ</string>
+    <string name="duration">រយៈពេល</string>
+    <string name="route">ផ្លូវ</string>
+    <string name="efficiency">ប្រសិទ្ធភាព</string>
+    <string name="mission_started">បេសកកម្មបានចាប់ផ្តើម</string>
+    <string name="mission_completed">បេសកកម្មបានបញ្ចប់</string>
+    <string name="tracking_active">កំពុងតាមដាន</string>
+    
+    
+    <string name="reports">របាយការណ៍</string>
+    <string name="generate_report">បង្កើតរបាយការណ៍</string>
+    <string name="report_type">ប្រភេទរបាយការណ៍</string>
+    <string name="export_format">ទម្រង់នាំចេញ</string>
+    <string name="date_range">ជួរកាលបរិច្ឆេទ</string>
+    <string name="attendance_report">របាយការណ៍ការវត្តមាន</string>
+    <string name="leave_report">របាយការណ៍ការច្បាប់</string>
+    <string name="mission_report">របាយការណ៍បេសកកម្ម</string>
+    <string name="performance_report">របាយការណ៍ការអនុវត្ត</string>
+    <string name="compliance_report">របាយការណ៍ការអនុលោម</string>
+    <string name="todays_status">ស្ថានភាពថ្ងៃនេះ</string>
+    
+    <!-- Common UI strings -->
+    <string name="coming_soon">នឹងមកដល់ឆាប់ៗនេះ</string>
+    <string name="add_user">បន្ថែមអ្នកប្រើប្រាស់</string>
+    <string name="clear_filter">សម្អាតការច្រោះ</string>
+    <string name="search_users_placeholder">ស្វែងរកអ្នកប្រើប្រាស់...</string>
+    <string name="search_notifications_placeholder">ស្វែងរកការជូនដំណឹង...</string>
+    <string name="no_users_found">មិនមានអ្នកប្រើប្រាស់ទេ</string>
+    <string name="no_leave_requests">មិនមានសំណើសុំឈប់សម្រាកទេ</string>
+    <string name="no_pending_approvals">មិនមានការអនុម័តរង់ចាំទេ</string>
+    <string name="inactive">មិនសកម្ម</string>
+    <string name="all_roles">តួនាទីទាំងអស់</string>
+    <string name="filter_by_role">ច្រោះតាមតួនាទី</string>
+    <string name="connection_problem">បញ្ហាការតភ្ជាប់</string>
+    <string name="permission_required">ត្រូវការការអនុញ្ញាត</string>
+    <string name="validation_error">កំហុសផ្ទៀងផ្ទាត់</string>
+    <string name="network_error">កំហុសបណ្តាញ</string>
+    <string name="grant_permission">ផ្តល់ការអនុញ្ញាត</string>
+    <string name="mark_all_read">សម្គាល់ទាំងអស់ថាបានអាន</string>
+    <string name="location">ទីតាំង</string>
+    <string name="try_again">ព្យាយាមម្តងទៀត</string>
+    
+    <!-- Attendance specific -->
+    <string name="attendance_status_icon">ស្ថានភាពការវត្តមាន</string>
+    <string name="error_icon">កំហុស</string>
+    <string name="distance_from_school_format">ចម្ងាយពីសាលា: %.1fម៉ែត្រ</string>
+    <string name="inside_area">នៅក្នុងតំបន់ (✓)</string>
+    <string name="outside_area">នៅក្រៅតំបន់ (✗)</string>
+    <string name="school_khmer">សាលារៀន</string>
+    <string name="current_location_khmer">ទីតាំងកំពុងឈរ</string>
+    
+    <!-- Leave management -->
+    <string name="request_leave">សុំការឈប់សម្រាក</string>
+    <string name="my_leaves">ការឈប់សម្រាករបស់ខ្ញុំ</string>
+    <string name="pending_approvals">ការអនុម័តរង់ចាំ</string>
+    <string name="duration_format">រយៈពេល: %1$s - %2$s</string>
+    <string name="reason_format">មូលហេតុ: %s</string>
+    <string name="comments_format">មតិយោបល់: %s</string>
+    <string name="enter_reason_leave">បញ្ចូលមូលហេតុសម្រាប់ការឈប់សម្រាក</string>
+    <string name="enter_reason_for_leave">បញ្ចូលមូលហេតុសម្រាប់ការឈប់សម្រាក</string>
+    <string name="no_leave_requests_found">មិនមានសំណើសុំឈប់សម្រាកទេ</string>
+    <string name="comments">មតិយោបល់</string>
+    <string name="submit_request">ដាក់ស្នើសុំ</string>
+    <string name="select_date">ជ្រើសរើសកាលបរិច្ឆេទ</string>
+    
+    <!-- App titles and navigation -->
+    <string name="select_user_role_login">ជ្រើសរើសតួនាទីអ្នកប្រើប្រាស់ដើម្បីចូល</string>
+    
+    <!-- Notification categories -->
+    <string name="all">ទាំងអស់</string>
+    <string name="unread">មិនទាន់អាន</string>
+    <string name="approvals">ការអនុម័ត</string>
+    <string name="system">ប្រព័ន្ធ</string>
+    
+    <!-- Biometric -->
+    <string name="biometric_authentication">ការផ្ទៀងផ្ទាត់ជីវមាត្រ</string>
+    <string name="use_biometric_to_authenticate">ប្រើជីវមាត្ររបស់អ្នកដើម្បីផ្ទៀងផ្ទាត់</string>
+    <string name="authenticating">កំពុងផ្ទៀងផ្ទាត់...</string>
+    <string name="authenticate">ផ្ទៀងផ្ទាត់</string>
+    
+    <!-- Test mode -->
+    <string name="test_account_login">ចូលប្រើគណនីសាកល្បង</string>
+    <string name="test_mode_active">របៀបសាកល្បងសកម្ម</string>
+    <string name="no_test_data_found">មិនមានទិន្នន័យសាកល្បងទេ</string>
+    <string name="tap_to_seed_test_accounts">ចុចប៊ូតុងខាងក្រោមដើម្បីបង្កើតគណនីសាកល្បង</string>
+    <string name="seed_test_data">បង្កើតទិន្នន័យសាកល្បង</string>
+    
+    <string name="pdf_format">PDF</string>
+    <string name="excel_format">Excel</string>
+    <string name="csv_format">CSV</string>
+    <string name="report_generated">បង្កើតរបាយការណ៍បានជោគជ័យ</string>
+    <string name="generating_report">កំពុងបង្កើតរបាយការណ៍...</string>
+    <string name="report_history">ប្រវត្តិរបាយការណ៍</string>
+    <string name="scheduled_reports">របាយការណ៍គ្រោងទុក</string>
+    
+    
+    <string name="settings">ការកំណត់</string>
+    <string name="profile">ប្រវត្តិរូប</string>
+    <string name="preferences">ចំណូលចិត្ត</string>
+    <string name="language">ភាសា</string>
+    <string name="notifications">ការជូនដំណឹង</string>
+    <string name="security">សុវត្ថិភាព</string>
+    <string name="privacy">ភាពឯកជន</string>
+    <string name="about">អំពី</string>
+    <string name="version">កំណែ</string>
+    <string name="help">ជំនួយ</string>
+    <string name="contact_support">ទាក់ទងការគាំទ្រ</string>
+    
+    
+    <string name="language_settings">ការកំណត់ភាសា</string>
+    <string name="select_language">ជ្រើសរើសភាសា</string>
+    <string name="english">English</string>
+    <string name="khmer">ភាសាខ្មែរ</string>
+    <string name="language_changed">ប្តូរភាសាបានជោគជ័យ</string>
+    <string name="restart_required">ត្រូវការចាប់ផ្តើមកម្មវិធីឡើងវិញសម្រាប់ការប្តូរភាសា</string>
+    
+    
+    <string name="biometric_auth">ការផ្ទៀងផ្ទាត់ជីវមាត្រ</string>
+    <string name="fingerprint">ស្នាមម្រាមដៃ</string>
+    <string name="face_recognition">ការសម្គាល់មុខ</string>
+    <string name="biometric_prompt_title">ផ្ទៀងផ្ទាត់អត្តសញ្ញាណរបស់អ្នក</string>
+    <string name="biometric_prompt_subtitle">ប្រើស្នាមម្រាមដៃ ឬមុខរបស់អ្នកដើម្បីបន្ត</string>
+    <string name="biometric_prompt_description">ដាក់ម្រាមដៃលើឧបករណ៍ចាប់សញ្ញា ឬមើលកាមេរ៉ា</string>
+    <string name="biometric_not_available">ការផ្ទៀងផ្ទាត់ជីវមាត្រមិនមាន</string>
+    <string name="biometric_not_enrolled">មិនមានឥទាន ជីវមាត្របានចុះឈ្មោះ</string>
+    <string name="biometric_success">ការផ្ទៀងផ្ទាត់បានជោគជ័យ</string>
+    <string name="biometric_failed">ការផ្ទៀងផ្ទាត់មិនបានជោគជ័យ</string>
+    <string name="biometric_cancelled">ការផ្ទៀងផ្ទាត់បានបោះបង់</string>
+    
+    
+    <string name="notification_settings">ការកំណត់ការជូនដំណឹង</string>
+    <string name="attendance_reminders">ការរំលឹកការវត្តមាន</string>
+    <string name="system_notifications">ការជូនដំណឹងប្រព័ន្ធ</string>
+    <string name="approval_notifications">ការជូនដំណឹងការអនុម័ត</string>
+    <string name="push_notifications">ការជូនដំណឹងរុញ</string>
+    <string name="email_notifications">ការជូនដំណឹងអ៊ីមែល</string>
+    <string name="notification_permission_required">ត្រូវការការអនុញ្ញាតការជូនដំណឹង</string>
+    <string name="grant_notification_permission">ផ្តល់ការអនុញ្ញាតការជូនដំណឹង</string>
+    
+    
+    <string name="administrator">អ្នកគ្រប់គ្រង</string>
+    <string name="zone_manager">អ្នកគ្រប់គ្រងតំបន់</string>
+    <string name="provincial_manager">អ្នកគ្រប់គ្រងខេត្ត</string>
+    <string name="department_manager">អ្នកគ្រប់គ្រងនាយកដ្ឋាន</string>
+    <string name="cluster_head">ប្រធានសមូហ</string>
+    <string name="director">នាយក</string>
+    <string name="teacher">គ្រូបង្រៀន</string>
+    
+    
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="yesterday">ម្សិលមិញ</string>
+    <string name="this_week">សប្តាហ៍នេះ</string>
+    <string name="last_week">សប្តាហ៍មុន</string>
+    <string name="this_month">ខែនេះ</string>
+    <string name="last_month">ខែមុន</string>
+    <string name="this_year">ឆ្នាំនេះ</string>
+    <string name="monday">ច័ន្ទ</string>
+    <string name="tuesday">អង្គារ</string>
+    <string name="wednesday">ពុធ</string>
+    <string name="thursday">ព្រហស្បតិ៍</string>
+    <string name="friday">សុក្រ</string>
+    <string name="saturday">សៅរ៍</string>
+    <string name="sunday">អាទិត្យ</string>
+    
+    
+    <string name="no_data_available">មិនមានទិន្នន័យ</string>
+    <string name="sync_in_progress">កំពុងធ្វើសមកាលកម្មទិន្នន័យ...</string>
+    <string name="sync_completed">ធ្វើសមកាលកម្មទិន្នន័យបានជោគជ័យ</string>
+    <string name="offline_mode">ធ្វើការក្រៅបណ្តាញ</string>
+    <string name="data_saved_locally">ទិន្នន័យបានរក្សាទុកក្នុងស្រុក</string>
+    
+    
+    <string name="location_permission_required">ត្រូវការការអនុញ្ញាតទីតាំង</string>
+    <string name="camera_permission_required">ត្រូវការការអនុញ្ញាតកាមេរ៉ា</string>
+    <string name="storage_permission_required">ត្រូវការការអនុញ្ញាតផ្ទុក</string>
+    <string name="permission_denied">ការអនុញ្ញាតបានបដិសេធ</string>
+    
+    
+    <string name="school">សាលា</string>
+    <string name="department">នាយកដ្ឋាន</string>
+    <string name="province">ខេត្ត</string>
+    <string name="district">ស្រុក</string>
+    <string name="commune">ឃុំ</string>
+    <string name="village">ភូមិ</string>
+    
+    
+    <string name="total">សរុប</string>
+    <string name="average">មធ្យម</string>
+    <string name="minimum">អប្បបរមា</string>
+    <string name="maximum">អតិបរមា</string>
+    <string name="percentage">ភាគរយ</string>
+    <string name="trend">និន្នាការ</string>
+    <string name="improving">កំពុងកែលម្អ</string>
+    <string name="declining">កំពុងធ្លាក់ចុះ</string>
+    <string name="stable">ស្ថិរភាព</string>
+    
+    
+    <string name="download">ទាញយក</string>
+    <string name="upload">បញ្ជូនឡើង</string>
+    <string name="file_downloaded">ឯកសារបានទាញយក</string>
+    <string name="file_upload_failed">បញ្ជូនឯកសារឡើងមិនបានជោគជ័យ</string>
+    <string name="file_size">ទំហំឯកសារ</string>
+    <string name="download_count">ចំនួនបានទាញយក</string>
+    
+    
+    <string name="leave_management">ការគ្រប់គ្រងការឈប់សម្រាក</string>
+    <string name="leave_request">សំណើសុំឈប់សម្រាក</string>
+    <string name="create_leave_request">បង្កើតសំណើសុំឈប់សម្រាក</string>
+    <string name="edit_leave_request">កែប្រែសំណើសុំឈប់សម្រាក</string>
+    <string name="leave_approvals">ការអនុម័តឈប់សម្រាក</string>
+    <string name="team_leave_calendar">ប្រតិទិនឈប់សម្រាកក្រុម</string>
+    <string name="leave_details">ព័ត៌មានលម្អិតការឈប់សម្រាក</string>
+    
+    
+    <string name="paternity_leave">ការឈប់សម្រាកថែទាំប្រពន្ធសម្រាលកូន</string>
+    <string name="study_leave">ការឈប់សម្រាកសិក្សា</string>
+    <string name="unpaid_leave">ការឈប់សម្រាកគ្មានប្រាក់បៀវត្ស</string>
+    <string name="compassionate_leave">ការឈប់សម្រាកមនុស្សធម៌</string>
+    <string name="religious_leave">ការឈប់សម្រាកសាសនា</string>
+    
+    
+    <string name="cancelled">បានលុបចោល</string>
+    <string name="returned">បានត្រឡប់ដើម្បីកែសម្រួល</string>
+    
+    
+    <string name="reason_placeholder">សូមផ្តល់មូលហេតុសម្រាប់សំណើសុំឈប់សម្រាករបស់អ្នក</string>
+    <string name="half_day">កន្លះថ្ងៃ</string>
+    <string name="morning">ព្រឹក</string>
+    <string name="afternoon">រសៀល</string>
+    <string name="emergency_contact">ទំនាក់ទំនងបន្ទាន់</string>
+    <string name="emergency_phone">ទូរស័ព្ទបន្ទាន់</string>
+    <string name="work_handover">ការប្រគល់ការងារ</string>
+    <string name="delegate_to">ប្រគល់សិទ្ធិទៅ</string>
+    <string name="attachments">ឯកសារភ្ជាប់</string>
+    <string name="attach_document">ភ្ជាប់ឯកសារ</string>
+    <string name="medical_certificate">វិញ្ញាបនបត្រពេទ្យ</string>
+    <string name="supporting_documents">ឯកសារគាំទ្រ</string>
+    
+    
+    <string name="submit_leave_request">ដាក់សំណើសុំឈប់សម្រាក</string>
+    <string name="approve">អនុម័ត</string>
+    <string name="reject">បដិសេធ</string>
+    <string name="return_for_revision">ត្រឡប់ដើម្បីកែសម្រួល</string>
+    <string name="cancel_leave">លុបចោលការឈប់សម្រាក</string>
+    <string name="view_leave_details">មើលព័ត៌មានលម្អិតការឈប់សម្រាក</string>
+    <string name="download_attachment">ទាញយកឯកសារភ្ជាប់</string>
+    <string name="view_approval_workflow">មើលដំណើរការអនុម័ត</string>
+    
+    
+    <string name="allocated_days">ថ្ងៃដែលបានបែងចែក</string>
+    <string name="used_days">ថ្ងៃដែលបានប្រើ</string>
+    <string name="pending_days">ថ្ងៃរង់ចាំ</string>
+    <string name="remaining_days">ថ្ងៃនៅសល់</string>
+    <string name="carry_forward">យោងទៅមុខ</string>
+    <string name="utilization">ការប្រើប្រាស់</string>
+    <string name="leave_balance_summary">សង្ខេបតុល្យភាពការឈប់សម្រាក</string>
+    <string name="insufficient_balance">តុល្យភាពការឈប់សម្រាកមិនគ្រប់គ្រាន់</string>
+    
+    
+    <string name="month">ខែ</string>
+    <string name="year">ឆ្នាំ</string>
+    <string name="calendar_view">ទិដ្ឋភាពប្រតិទិន</string>
+    <string name="upcoming_leaves">ការឈប់សម្រាកខាងមុខ</string>
+    <string name="on_leave_today">ឈប់សម្រាកថ្ងៃនេះ</string>
+    <string name="no_leaves_scheduled">គ្មានការឈប់សម្រាកដែលបានកំណត់</string>
+    
+    
+    <string name="leave_request_submitted">សំណើសុំឈប់សម្រាកបានដាក់ដោយជោគជ័យ</string>
+    <string name="leave_request_approved">សំណើសុំឈប់សម្រាករបស់អ្នកត្រូវបានអនុម័ត</string>
+    <string name="leave_request_rejected">សំណើសុំឈប់សម្រាករបស់អ្នកត្រូវបានបដិសេធ</string>
+    <string name="leave_request_cancelled">សំណើសុំឈប់សម្រាកបានលុបចោល</string>
+    <string name="new_leave_approval_request">សំណើសុំឈប់សម្រាកថ្មីត្រូវការការអនុម័តរបស់អ្នក</string>
+    
+    
+    <string name="approval_workflow">ដំណើរការអនុម័ត</string>
+    <string name="approver">អ្នកអនុម័ត</string>
+    <string name="approval_status">ស្ថានភាពអនុម័ត</string>
+    <string name="approval_comments">មតិយោបល់អនុម័ត</string>
+    <string name="rejection_reason">មូលហេតុបដិសេធ</string>
+    <string name="approval_level">កម្រិតអនុម័ត</string>
+    <string name="pending_approval">រង់ចាំការអនុម័ត</string>
+    <string name="rejected_by">បដិសេធដោយ</string>
+    <string name="approval_date">កាលបរិច្ឆេទអនុម័ត</string>
+    
+    
+    <string name="leave_statistics">ស្ថិតិការឈប់សម្រាក</string>
+    <string name="total_leaves">ការឈប់សម្រាកសរុប</string>
+    <string name="leaves_taken_this_month">ការឈប់សម្រាកដែលបានប្រើខែនេះ</string>
+    <string name="leaves_taken_this_year">ការឈប់សម្រាកដែលបានប្រើឆ្នាំនេះ</string>
+    <string name="most_used_leave_type">ប្រភេទការឈប់សម្រាកដែលប្រើច្រើនបំផុត</string>
+    <string name="average_processing_time">រយៈពេលដំណើរការមធ្យម</string>
+    <string name="approval_rate">អត្រាអនុម័ត</string>
+    
+    
+    <string name="select_leave_type">សូមជ្រើសរើសប្រភេទការឈប់សម្រាក</string>
+    <string name="select_dates">សូមជ្រើសរើសកាលបរិច្ឆេទចាប់ផ្តើម និងបញ្ចប់</string>
+    <string name="provide_reason">សូមផ្តល់មូលហេតុ</string>
+    <string name="invalid_date_range">ជួរកាលបរិច្ឆេទមិនត្រឹមត្រូវ</string>
+    <string name="advance_notice_required">ប្រភេទការឈប់សម្រាកនេះត្រូវការការជូនដំណឹងជាមុន %d ថ្ងៃ</string>
+    <string name="max_days_exceeded">បានលើសចំនួនថ្ងៃអតិបរមាដែលអនុញ្ញាតសម្រាប់ប្រភេទការឈប់សម្រាកនេះ</string>
+    <string name="duplicate_leave_request">សំណើសុំឈប់សម្រាកមានរួចហើយសម្រាប់កាលបរិច្ឆេទទាំងនេះ</string>
+    <string name="no_leave_balance">គ្មានតុល្យភាពការឈប់សម្រាកសម្រាប់ប្រភេទនេះ</string>
+    <string name="max_days_per_year">អតិបរមា %d ថ្ងៃក្នុងមួយឆ្នាំ</string>
+    <string name="total_days_value">%s ថ្ងៃ</string>
+    <string name="approved_by">អនុម័តដោយ %s</string>
+    <string name="no_leave_history">គ្មានប្រវត្តិការឈប់សម្រាក</string>
+    <string name="no_leave_history_description">អ្នកមិនទាន់បានដាក់សំណើសុំឈប់សម្រាកនៅឡើយទេ។ បង្កើតសំណើសុំឈប់សម្រាកដំបូងរបស់អ្នកដើម្បីចាប់ផ្តើម។</string>
+    <string name="filter_leaves">ច្រោះការឈប់សម្រាក</string>
+    <string name="search">ស្វែងរក</string>
+    <string name="pending_requests_count">%d សំណើរង់ចាំការអនុម័តរបស់អ្នក</string>
+    <string name="unknown_user">អ្នកប្រើមិនស្គាល់</string>
+    <string name="emergency">បន្ទាន់</string>
+    <string name="view_details">មើលលម្អិត</string>
+    <string name="has_attachments">មានឯកសារភ្ជាប់</string>
+    <string name="submitted_on">បានដាក់នៅ %s</string>
+    <string name="approve_leave_request">អនុម័តសំណើសុំឈប់សម្រាក</string>
+    <string name="approve_leave_confirmation">អនុម័តសំណើ %2$s របស់ %1$s?</string>
+    <string name="optional_comments">មតិយោបល់បន្ថែម (ជាជម្រើស)</string>
+    <string name="reject_leave_request">បដិសេធសំណើសុំឈប់សម្រាក</string>
+    <string name="reject_leave_confirmation">បដិសេធសំណើ %2$s របស់ %1$s?</string>
+    <string name="provide_rejection_reason">សូមផ្តល់មូលហេតុសម្រាប់ការបដិសេធ</string>
+    <string name="rejection_reason_required">ត្រូវការមូលហេតុបដិសេធ</string>
+    <string name="no_pending_approvals_description">គ្មានសំណើសុំឈប់សម្រាករង់ចាំការអនុម័តរបស់អ្នកនៅពេលនេះទេ។</string>
+    <string name="on_leave_count">%d នាក់ឈប់សម្រាក</string>
+    <string name="leaves_on_date">ការឈប់សម្រាកនៅ %s</string>
+    <string name="and_more_leaves">...និង %d ទៀត</string>
+    <string name="in_days">នៅ %d ថ្ងៃទៀត</string>
+    <string name="overall_utilization">ការប្រើប្រាស់សរុប</string>
+    <string name="leave_policy_notes">ចំណាំគោលនយោបាយឈប់សម្រាក</string>
+    <string name="annual_leave_note">• ការបែងចែកការឈប់សម្រាកប្រចាំឆ្នាំផ្អែកលើឆ្នាំនៃការបម្រើការងារ</string>
+    <string name="sick_leave_note">• ការឈប់សម្រាកព្យាបាលអាចត្រូវការវិញ្ញាបនបត្រពេទ្យសម្រាប់រយៈពេលយូរ</string>
+    <string name="carry_forward_note">• ការឈប់សម្រាកប្រចាំឆ្នាំមិនប្រើអាចយកទៅឆ្នាំបន្ទាប់ (អតិបរមា 5 ថ្ងៃ)</string>
+    <string name="exhausted">អស់</string>
+    <string name="allocated">បានបែងចែក</string>
+    <string name="used">បានប្រើ</string>
+    <string name="remaining">នៅសល់</string>
+    <string name="last_updated">បានធ្វើបច្ចុប្បន្នភាព %s</string>
+    <string name="no_leave_balance_data">គ្មានទិន្នន័យតុល្យភាព</string>
+    <string name="no_leave_balance_description">ព័ត៌មានតុល្យភាពការឈប់សម្រាកសម្រាប់ %d មិនទាន់មាននៅឡើយទេ។ ទាក់ទងផ្នែកធនធានមនុស្ស ឬបង្កើតសំណើសុំឈប់សម្រាកដើម្បីចាប់ផ្តើមតុល្យភាពរបស់អ្នក។</string>
+    <string name="select_year">ជ្រើសរើសឆ្នាំ</string>
+    <string name="current">បច្ចុប្បន្ន</string>
+    
+    
+    <string name="filter_by_type">ច្រោះតាមប្រភេទ</string>
+    <string name="filter_by_status">ច្រោះតាមស្ថានភាព</string>
+    <string name="filter_by_date">ច្រោះតាមកាលបរិច្ឆេទ</string>
+    <string name="all_types">ប្រភេទទាំងអស់</string>
+    <string name="all_statuses">ស្ថានភាពទាំងអស់</string>
+    <string name="last_30_days">30 ថ្ងៃចុងក្រោយ</string>
+    <string name="last_3_months">3 ខែចុងក្រោយ</string>
+    <string name="last_6_months">6 ខែចុងក្រោយ</string>
+    <string name="last_year">ឆ្នាំមុន</string>
+    <string name="custom_range">ជួរផ្ទាល់ខ្លួន</string>
+    
+    <!-- User Management Strings -->
+    <string name="user_management">ការគ្រប់គ្រងអ្នកប្រើប្រាស់</string>
+    <string name="user_details">ព័ត៌មានលម្អិតអ្នកប្រើប្រាស់</string>
+    <string name="create_user">បង្កើតអ្នកប្រើប្រាស់</string>
+    <string name="edit_user">កែសម្រួលអ្នកប្រើប្រាស់</string>
+    <string name="select_account">ជ្រើសរើសគណនី</string>
+    <string name="add_new_user">បន្ថែមអ្នកប្រើប្រាស់ថ្មី</string>
+    <string name="add_first_user">បន្ថែមអ្នកប្រើប្រាស់ដំបូង</string>
+    <string name="delete_user">លុបអ្នកប្រើប្រាស់</string>
+    <string name="user_created">បានបង្កើតអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="user_updated">បានកែសម្រួលអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="user_deleted">បានលុបអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="search_users">ស្វែងរកអ្នកប្រើប្រាស់...</string>
+    <string name="active_users">អ្នកប្រើប្រាស់សកម្ម</string>
+    <string name="inactive_users">អ្នកប្រើប្រាស់មិនសកម្ម</string>
+    <string name="user_status">ស្ថានភាពអ្នកប្រើប្រាស់</string>
+    <string name="activate_user">ធ្វើអោយអ្នកប្រើប្រាស់សកម្ម</string>
+    <string name="deactivate_user">ធ្វើអោយអ្នកប្រើប្រាស់មិនសកម្ម</string>
+    <string name="reset_password">កំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="password_reset">កំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="password_reset_success">បានកំណត់ពាក្យសម្ងាត់ឡើងវិញដោយជោគជ័យ</string>
+    <string name="new_password">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="confirm_password">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="passwords_dont_match">ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ</string>
+    <string name="first_name">នាមខ្លួន</string>
+    <string name="last_name">នាមត្រកូល</string>
+    <string name="full_name">ឈ្មោះពេញ</string>
+    <string name="user_role">តួនាទីអ្នកប្រើប្រាស់</string>
+    <string name="organization_id">លេខសម្គាល់ស្ថាប័ន</string>
+    <string name="account_status">ស្ថានភាពគណនី</string>
+    <string name="account_information">ព័ត៌មានគណនី</string>
+    <string name="personal_information">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="role_organization">តួនាទី និងស្ថាប័ន</string>
+    <string name="user_id">លេខសម្គាល់អ្នកប្រើប្រាស់</string>
+    <string name="department_id">លេខសម្គាល់នាយកដ្ឋាន</string>
+    <string name="created_at">បានបង្កើត</string>
+    <string name="updated_at">កែប្រែចុងក្រោយ</string>
+    <string name="save_changes">រក្សាទុកការផ្លាស់ប្ដូរ</string>
+    <string name="cancel_changes">បោះបង់ការផ្លាស់ប្ដូរ</string>
+    <string name="delete_user_confirmation">តើអ្នកប្រាកដថាចង់លុបអ្នកប្រើប្រាស់នេះមែនទេ? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។</string>
+    <string name="toggle_password_visibility">បង្ហាញ/លាក់ពាក្យសម្ងាត់</string>
+    <string name="minimum_password_length">យ៉ាងតិច ៨ តួអក្សរ</string>
+    <string name="invalid_email_format">ទម្រង់អុីមែលមិនត្រឹមត្រូវ</string>
+    <string name="field_required">វាលនេះចាំបាច់</string>
+    <string name="your_location">ទីតាំងរបស់អ្នក</string>
+    <string name="locate_me">រកទីតាំងខ្ញុំ</string>
+    <string name="location_error">កំហុសទីតាំង</string>
+    <string name="already_completed">បានបញ្ចប់រួចហើយ</string>
+    <string name="check_in_error">កំហុសចូលការងារ</string>
+    <string name="move_closer_hint">សូមផ្លាស់ទីទៅជិតសាលារៀនរបស់អ្នក (ក្នុងរង្វង់ ១០០ម៉ែត្រ)</string>
+    <string name="automatic_check_in">ចូលការងារដោយស្វ័យប្រវត្តិ</string>
+    <string name="automatic_check_in_trying">កម្មវិធីកំពុងព្យាយាមចុះវត្តមានស្វ័យប្រវត្តិ...</string>
+    <string name="automatic_check_in_success">បានចូលការងារដោយស្វ័យប្រវត្តិនៅពេលចូលតំបន់សាលា</string>
+    <string name="not_authenticated">សូមចូលប្រើប្រាស់</string>
+    <string name="location_permission_denied">ការអនុញ្ញាតទីតាំងត្រូវបានបដិសេធ</string>
+    <string name="location_services_disabled">សេវាទីតាំងត្រូវបានបិទ</string>
+    <string name="ready_for_attendance">រួចរាល់សម្រាប់ការវត្តមាន</string>
+    <string name="user_active">សកម្ម</string>
+    <string name="user_inactive">មិនសកម្ម</string>
+    <string name="user_can_access_system">អ្នកប្រើប្រាស់អាចចូលដំណើរការប្រព័ន្ធ</string>
+    <string name="user_cannot_access_system">អ្នកប្រើប្រាស់មិនអាចចូលដំណើរការប្រព័ន្ធ</string>
+    <string name="failed_to_load_users">មិនអាចផ្ទុកអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="failed_to_load_user_details">មិនអាចផ្ទុកព័ត៌មានលម្អិតអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="failed_to_create_user">មិនអាចបង្កើតអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="failed_to_update_user">មិនអាចកែសម្រួលអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="failed_to_delete_user">មិនអាចលុបអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="failed_to_reset_password">មិនអាចកំណត់ពាក្យសម្ងាត់ឡើងវិញបានទេ</string>
+    <string name="failed_to_update_user_status">មិនអាចកែប្រែស្ថានភាពអ្នកប្រើប្រាស់បានទេ</string>
+    <string name="select_role">ជ្រើសរើសតួនាទី</string>
+    <string name="select_organization">ជ្រើសរើសស្ថាប័ន</string>
+    <string name="organization">ស្ថាប័ន</string>
+    <string name="no_organizations_found">រកមិនឃើញស្ថាប័នទេ</string>
+    <string name="loading_organizations">កំពុងផ្ទុកស្ថាប័ន...</string>
+    <string name="password_must_be_at_least_8_characters">ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ៨ តួអក្សរ</string>
+    <string name="confirm_user_status_change">បញ្ជាក់ការផ្លាស់ប្តូរស្ថានភាពអ្នកប្រើប្រាស់</string>
+    <string name="deactivate_user_message">តើអ្នកប្រាកដថាចង់ធ្វើឱ្យអ្នកប្រើប្រាស់នេះមិនសកម្មមែនទេ? ពួកគេនឹងមិនអាចចូលប្រើប្រព័ន្ធបានទេ។</string>
+    <string name="activate_user_message">តើអ្នកប្រាកដថាចង់ធ្វើឱ្យអ្នកប្រើប្រាស់នេះសកម្មមែនទេ? ពួកគេនឹងអាចចូលប្រើប្រព័ន្ធបាន។</string>
+    <string name="reset_password_confirmation">តើអ្នកប្រាកដថាចង់កំណត់ពាក្យសម្ងាត់ឡើងវិញសម្រាប់អ្នកប្រើប្រាស់នេះមែនទេ?</string>
+    <string name="enter_new_password">បញ្ចូលពាក្យសម្ងាត់ថ្មី</string>
+    <string name="user_information">ព័ត៌មានអ្នកប្រើប្រាស់</string>
+    <string name="contact_information">ព័ត៌មានទំនាក់ទំនង</string>
+    <string name="account_actions">សកម្មភាពគណនី</string>
+    <string name="danger_zone">តំបន់គ្រោះថ្នាក់</string>
+    <string name="permanently_delete_user">លុបអ្នកប្រើប្រាស់ជាអចិន្ត្រៃយ៍</string>
+    <string name="user_details_not_found">រកមិនឃើញព័ត៌មានលម្អិតអ្នកប្រើប្រាស់</string>
+    <string name="location_required">ទីតាំងត្រូវការ</string>
+    <string name="location_access_required">ត្រូវការការចូលប្រើទីតាំង</string>
+    <string name="location_access_description">កម្មវិធីនេះត្រូវការការចូលប្រើទីតាំងដើម្បីផ្ទៀងផ្ទាត់វត្តមានរបស់អ្នកនៅទីតាំងត្រឹមត្រូវ។ ទិន្នន័យទីតាំងរបស់អ្នកត្រូវបានប្រើសម្រាប់ការផ្ទៀងផ្ទាត់វត្តមានតែប៉ុណ្ណោះ ហើយមិនត្រូវបានចែករំលែកជាមួយភាគីទីបីឡើយ។</string>
+    <string name="grant_location_permission">ផ្តល់ការអនុញ្ញាតទីតាំង</string>
+    <string name="location_permission_needed">ត្រូវការការអនុញ្ញាតទីតាំង</string>
+    <string name="location_permission_rationale">ការចូលប្រើទីតាំងគឺចាំបាច់សម្រាប់ការផ្ទៀងផ្ទាត់វត្តមាន។ បើគ្មានការអនុញ្ញាតនេះ អ្នកនឹងមិនអាចចូលឬចេញពីការងារបានទេ។ សូមផ្តល់ការចូលប្រើទីតាំងដើម្បីបន្តប្រើប្រព័ន្ធវត្តមាន។</string>
+    
+    <!-- Developer Settings -->
+    <string name="developer_settings">ការកំណត់អ្នកអភិវឌ្ឍន៍</string>
+    <string name="developer_mode">របៀបអ្នកអភិវឌ្ឍន៍</string>
+    <string name="enable_local_testing_features">បើកមុខងារសាកល្បងក្នុងមូលដ្ឋាន</string>
+    <string name="use_local_authentication">ប្រើការផ្ទៀងផ្ទាត់ក្នុងមូលដ្ឋាន</string>
+    <string name="authenticate_against_local_database">ផ្ទៀងផ្ទាត់ជាមួយមូលដ្ឋានទិន្នន័យ SQLite ក្នុងមូលដ្ឋាន</string>
+    <string name="view_test_accounts">មើលគណនីសាកល្បង</string>
+    <string name="test_features">មុខងារសាកល្បង</string>
+    <string name="show_test_account_badge">បង្ហាញសញ្ញាគណនីសាកល្បង</string>
+    <string name="display_test_indicator">បង្ហាញសូចនាករសាកល្បងនៅលើអេក្រង់ចូលប្រើ</string>
+    <string name="database_actions">សកម្មភាពមូលដ្ឋានទិន្នន័យ</string>
+    <string name="seed_data">បញ្ចូលទិន្នន័យគំរូ</string>
+    <string name="clear_data">សម្អាតទិន្នន័យ</string>
+    <string name="api_configuration">ការកំណត់រចនាសម្ព័ន្ធ API</string>
+    <string name="api_url_format">URL API: %s</string>
+    <string name="mode_format">របៀប: %s</string>
+    <string name="local_sqlite">SQLite ក្នុងមូលដ្ឋាន</string>
+    <string name="remote_api">API ពីចម្ងាយ</string>
+    <string name="dismiss">ច្រានចោល</string>
+    
+    <!-- Settings Screen -->
+    <string name="view_and_edit_profile">មើល និងកែសម្រួលប្រវត្តិរូបរបស់អ្នក</string>
+    <string name="change_app_language">ផ្លាស់ប្តូរភាសាកម្មវិធី</string>
+    <string name="manage_notification_preferences">គ្រប់គ្រងការកំណត់ការជូនដំណឹង</string>
+    <string name="biometric_settings">ការកំណត់ជីវមាត្រ</string>
+    <string name="configure_biometric_auth">កំណត់រចនាសម្ព័ន្ធការផ្ទៀងផ្ទាត់ដោយស្នាមម្រាមដៃ/មុខ</string>
+    <string name="advanced_testing_options">ជម្រើសសាកល្បងកម្រិតខ្ពស់</string>
+    <string name="version_format">កំណែ %s</string>
+    <string name="outside_school_area">ក្រៅតំបន់សាលា</string>
+    <string name="already_checked">បានដាក់កម្រេះរួចហើយ</string>
+</resources>

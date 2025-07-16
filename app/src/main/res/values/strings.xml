@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">វត្តមានភាគីដៃគូ</string>
+    
+    
+    <string name="missions">បេសកកម្ម</string>
+    <string name="mission_details">ព័ត៌មានលម្អិតបេសកកម្ម</string>
+    <string name="create_mission">បង្កើតបេសកកម្ម</string>
+    <string name="mission_tracking">តាមដានបេសកកម្ម</string>
+    <string name="mission_map">ផែនទីបេសកកម្ម</string>
+    <string name="all_missions">បេសកកម្មទាំងអស់</string>
+    <string name="active_missions">បេសកកម្មដែលកំពុងដំណើរការ</string>
+    <string name="pending_missions">បេសកកម្មកំពុងរង់ចាំ</string>
+    <string name="completed_missions">បេសកកម្មដែលបានបញ្ចប់</string>
+    <string name="mission_overview">ទិដ្ឋភាពទូទៅបេសកកម្ម</string>
+    <string name="search_missions">ស្វែងរកបេសកកម្ម...</string>
+    <string name="no_missions_found">រកមិនឃើញបេសកកម្ម</string>
+    <string name="no_missions_description">អ្នកមិនទាន់មានបេសកកម្មណាមួយនៅឡើយទេ។ បង្កើតបេសកកម្មថ្មីដើម្បីចាប់ផ្តើម។</string>
+    
+    
+    <string name="mission_title">ចំណងជើងបេសកកម្ម</string>
+    <string name="mission_title_placeholder">បញ្ចូលចំណងជើងបេសកកម្ម</string>
+    <string name="description">ការពិពណ៌នា</string>
+    <string name="description_placeholder">ពិពណ៌នាអំពីគោលបំណងនិងវត្ថុបំណងបេសកកម្ម</string>
+    <string name="purpose">គោលបំណង</string>
+    <string name="purpose_placeholder">តើគោលបំណងសំខាន់របស់បេសកកម្មនេះជាអ្វី?</string>
+    <string name="expected_outcome">លទ្ធផលរំពឹងទុក</string>
+    <string name="expected_outcome_placeholder">តើអ្នករំពឹងទុកថានឹងសម្រេចបានអ្វី?</string>
+    <string name="destination">ទីតាំងគោលដៅ</string>
+    <string name="destination_placeholder">បញ្ចូលអាសយដ្ឋានទីតាំងគោលដៅ</string>
+    <string name="mission_type">ប្រភេទបេសកកម្ម</string>
+    <string name="mission_type_and_priority">ប្រភេទនិងអាទិភាព</string>
+    <string name="priority">អាទិភាព</string>
+    <string name="emergency_mission">បេសកកម្មបន្ទាន់</string>
+    <string name="requires_approval">ត្រូវការការអនុម័ត</string>
+    <string name="requires_approval_description">បេសកកម្មនេះនឹងត្រូវការការអនុម័តពីអ្នកគ្រប់គ្រងមុនពេលអាចចាប់ផ្តើមបាន</string>
+    
+    
+    <string name="location_and_schedule">ទីតាំងនិងកាលវិភាគ</string>
+    <string name="start_date">កាលបរិច្ឆេទចាប់ផ្តើម</string>
+    <string name="end_date">កាលបរិច្ឆេទបញ្ចប់</string>
+    <string name="start_time">ពេលវេលាចាប់ផ្តើម</string>
+    <string name="end_time">ពេលវេលាបញ្ចប់</string>
+    <string name="transport_mode">របៀបដឹកជញ្ជូន</string>
+    <string name="select_transport_mode">ជ្រើសរើសរបៀបដឹកជញ្ជូន</string>
+    <string name="location_and_route">ទីតាំងនិងផ្លូវ</string>
+    <string name="start_location">ទីតាំងចាប់ផ្តើម</string>
+    <string name="end_location">ទីតាំងបញ្ចប់</string>
+    <string name="current_location">ទីតាំងបច្ចុប្បន្ន</string>
+    <string name="total_distance">ចម្ងាយសរុប</string>
+    <string name="total_duration">រយៈពេលសរុប</string>
+    <string name="view_route_on_map">មើលផ្លូវលើផែនទី</string>
+    
+    
+    <string name="budget_and_resources">ថវិកានិងធនធាន</string>
+    <string name="estimated_budget">ថវិកាប៉ាន់ស្មាន</string>
+    <string name="budget_placeholder">0.00</string>
+    
+    
+    <string name="team_and_approval">ក្រុមការងារនិងការអនុម័ត</string>
+    <string name="participants">អ្នកចូលរួម</string>
+    <string name="select_participants">ជ្រើសរើសអ្នកចូលរួម</string>
+    <string name="supervisor">អ្នកគ្រប់គ្រង</string>
+    <string name="select_supervisor">ជ្រើសរើសអ្នកគ្រប់គ្រង</string>
+    
+    
+    <string name="additional_notes">កំណត់ចំណាំបន្ថែម</string>
+    <string name="notes">កំណត់ចំណាំ</string>
+    <string name="notes_placeholder">បន្ថែមកំណត់ចំណាំ ឬមតិយោបល់បន្ថែម</string>
+    <string name="mission_summary">សង្ខេបបេសកកម្ម</string>
+    
+    
+    <string name="basic_information">ព័ត៌មានមូលដ្ឋាន</string>
+    <string name="mission_information">ព័ត៌មានបេសកកម្ម</string>
+    <string name="duration">រយៈពេល</string>
+    <string name="days">ថ្ងៃ</string>
+    <string name="minutes">នាទី</string>
+    <string name="timeline">ពេលវេលា</string>
+    <string name="notes_and_reports">កំណត់ចំណាំនិងរបាយការណ៍</string>
+    <string name="view_report">មើលរបាយការណ៍</string>
+    <string name="completion_notes">កំណត់ចំណាំបញ្ចប់</string>
+    <string name="completion_notes_placeholder">បន្ថែមកំណត់ចំណាំអំពីការបញ្ចប់បេសកកម្ម</string>
+    <string name="cancellation_reason">មូលហេតុលុបចោល</string>
+    <string name="cancellation_reason_placeholder">ហេតុអ្វីបានជាបេសកកម្មនេះត្រូវលុបចោល?</string>
+    
+    
+    <string name="actions">សកម្មភាព</string>
+    <string name="start_mission">ចាប់ផ្តើមបេសកកម្ម</string>
+    <string name="complete_mission">បញ្ចប់បេសកកម្ម</string>
+    <string name="cancel_mission">លុបចោលបេសកកម្ម</string>
+    <string name="pause_mission">ផ្អាកបេសកកម្ម</string>
+    <string name="start">ចាប់ផ្តើម</string>
+    <string name="complete">បញ្ចប់</string>
+    <string name="cancel">លុបចោល</string>
+    <string name="pause">ផ្អាក</string>
+    <string name="resume">បន្ត</string>
+    <string name="track">តាមដាន</string>
+    <string name="track_mission">តាមដានបេសកកម្ម</string>
+    <string name="stop_tracking">បញ្ឈប់ការតាមដាន</string>
+    <string name="start_tracking">ចាប់ផ្តើមតាមដាន</string>
+    
+    
+    <string name="tracking_status">ស្ថានភាពតាមដាន</string>
+    <string name="tracking_active">ការតាមដានកំពុងសកម្ម</string>
+    <string name="tracking_paused">ការតាមដានផ្អាក</string>
+    <string name="active">សកម្ម</string>
+    <string name="paused">ផ្អាក</string>
+    <string name="status">ស្ថានភាព</string>
+    <string name="accuracy">ភាពត្រឹមត្រូវ</string>
+    <string name="current_speed">ល្បឿនបច្ចុប្បន្ន</string>
+    <string name="mission_statistics">ស្ថិតិបេសកកម្ម</string>
+    <string name="waypoints">ចំណុចផ្លូវ</string>
+    <string name="elapsed_time">ពេលវេលាកន្លងផុត</string>
+    <string name="distance_from_start">ចម្ងាយពីចំណុចចាប់ផ្តើម</string>
+    <string name="route_progress">ការរកសីលធម៌ផ្លូវ</string>
+    <string name="progress_percentage">%d%% បានបញ្ចប់</string>
+    <string name="location_history">ប្រវត្តិទីតាំង</string>
+    <string name="pause_tracking">ផ្អាកការតាមដាន</string>
+    <string name="pause_mission_confirmation">តើអ្នកពិតជាចង់ផ្អាកការតាមដានបេសកកម្មមែនទេ?</string>
+    
+    
+    <string name="complete_mission_confirmation">តើអ្នកពិតជាចង់បញ្ចប់បេសកកម្ម "%1$s" មែនទេ?</string>
+    <string name="cancel_mission_confirmation">តើអ្នកពិតជាចង់លុបចោលបេសកកម្ម "%1$s" មែនទេ?</string>
+    
+    
+    <string name="view_map">មើលផែនទី</string>
+    <string name="map_view_placeholder">មើលផែនទី</string>
+    <string name="map_implementation_note">ការរួមបញ្ចូល Google Maps នឹងត្រូវបានអនុវត្តនៅទីនេះ</string>
+    <string name="route">ផ្លូវ</string>
+    <string name="heatmap">ផែនទីកម្ដៅ</string>
+    <string name="satellite">រណសិរ្ស</string>
+    <string name="current">បច្ចុប្បន្ន</string>
+    <string name="points">ចំណុច</string>
+    <string name="route_information">ព័ត៌មានផ្លូវ</string>
+    <string name="total_points">ចំណុចសរុប</string>
+    <string name="route_position">ទីតាំងផ្លូវ</string>
+    <string name="location_details">ព័ត៌មានលម្អិតទីតាំង</string>
+    <string name="coordinates">កូអរដោនេ</string>
+    <string name="latitude">រយៈទទឹង</string>
+    <string name="longitude">រយៈបណ្តោយ</string>
+    <string name="address">អាសយដ្ឋាន</string>
+    <string name="altitude">កម្ពស់</string>
+    <string name="timestamp">បេតុងពេលវេលា</string>
+    <string name="mission_context">បរិបទបេសកកម្ម</string>
+    <string name="distance_to_end">ចម្ងាយដល់ចុង</string>
+    <string name="navigate">នាំផ្លូវ</string>
+    <string name="share">ចែករំលែក</string>
+    
+    
+    <string name="select_date">ជ្រើសរើសកាលបរិច្ឆេទ</string>
+    <string name="select_time">ជ្រើសរើសពេលវេលា</string>
+    <string name="select_location">ជ្រើសរើសទីតាំង</string>
+    <string name="select_users">ជ្រើសរើសអ្នកប្រើប្រាស់</string>
+    <string name="select_user">ជ្រើសរើសអ្នកប្រើប្រាស់</string>
+    <string name="search_location">ស្វែងរកទីតាំង</string>
+    <string name="custom_location">ទីតាំងផ្ទាល់ខ្លួន</string>
+    <string name="select_date_range">ជ្រើសរើសជួរកាលបរិច្ឆេទ</string>
+    <string name="date_range">ជួរកាលបរិច្ឆេទ</string>
+    
+    
+    <string name="back">ថយក្រោយ</string>
+    <string name="filter">តម្រង</string>
+    <string name="apply">អនុវត្ត</string>
+    <string name="dismiss">បណ្តេញ</string>
+    <string name="close">បិទ</string>
+    <string name="clear">សម្អាត</string>
+    <string name="confirm">បញ្ជាក់</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="yes">បាទ/ចាស</string>
+    <string name="no">ទេ</string>
+    <string name="all">ទាំងអស់</string>
+    <string name="none">គ្មាន</string>
+    <string name="total">សរុប</string>
+    <string name="in_progress">កំពុងដំណើរការ</string>
+    <string name="completed">បានបញ្ចប់</string>
+    <string name="completion_rate">អត្រាបញ្ចប់</string>
+    <string name="title">ចំណងជើង</string>
+    <string name="type">ប្រភេទ</string>
+    <string name="distance">ចម្ងាយ</string>
+    <string name="create">បង្កើត</string>
+    <string name="edit">កែសម្រួល</string>
+    <string name="more_options">ជម្រើសបន្ថែម</string>
+    <string name="loading">កំពុងផ្ទុក...</string>
+    <string name="retry">ព្យាយាមម្តងទៀត</string>
+    <string name="error_occurred">កំហុសបានកើតឡើង</string>
+    
+    
+    <string name="error_title_required">ចំណងជើងបេសកកម្មជាការចាំបាច់</string>
+    <string name="error_description_required">ការពិពណ៌នាជាការចាំបាច់</string>
+    <string name="error_purpose_required">គោលបំណងជាការចាំបាច់</string>
+    <string name="error_destination_required">ទីតាំងគោលដៅជាការចាំបាច់</string>
+    <string name="error_end_date_before_start">កាលបរិច្ឆេទបញ្ចប់មិនអាចនៅមុនកាលបរិច្ឆេទចាប់ផ្តើមបានទេ</string>
+    <string name="error_end_time_before_start">ពេលវេលាបញ្ចប់មិនអាចនៅមុនពេលវេលាចាប់ផ្តើមបានទេ</string>
+    <string name="error_invalid_budget">ទម្រង់ថវិកាមិនត្រឹមត្រូវ</string>
+    
+    
+    <string name="filter_missions">តម្រងបេសកកម្ម</string>
+    
+    
+    <string name="schools">សាលារៀន</string>
+    <string name="school">សាលារៀន</string>
+    <string name="school_details">ព័ត៌មានលម្អិតសាលារៀន</string>
+    <string name="create_school">បង្កើតសាលារៀន</string>
+    <string name="edit_school">កែសម្រួលសាលារៀន</string>
+    <string name="delete_school">លុបសាលារៀន</string>
+    <string name="school_hierarchy">ឋានានុក្រមសាលារៀន</string>
+    <string name="school_staff">បុគ្គលិកសាលារៀន</string>
+    <string name="search_schools">ស្វែងរកសាលារៀន...</string>
+    <string name="no_schools_found">រកមិនឃើញសាលារៀន</string>
+    <string name="no_schools_description">គ្មានសាលារៀនទេនៅក្នុងតំបន់របស់អ្នក។ ទាក់ទងអ្នកគ្រប់គ្រងរបស់អ្នកសម្រាប់ជំនួយ។</string>
+    <string name="filter_schools">តម្រងសាលារៀន</string>
+    <string name="all_provinces">ខេត្តទាំងអស់</string>
+    <string name="all_districts">ស្រុកទាំងអស់</string>
+    <string name="school_type">ប្រភេទសាលារៀន</string>
+    <string name="school_level">កម្រិតសាលារៀន</string>
+    <string name="school_name">ឈ្មោះសាលារៀន</string>
+    <string name="enter_school_name">បញ្ចូលឈ្មោះសាលារៀន</string>
+    <string name="school_code">លេខកូដសាលារៀន</string>
+    <string name="enter_school_code">បញ្ចូលលេខកូដសាលារៀន</string>
+    <string name="select_school_type">ជ្រើសរើសប្រភេទសាលារៀន</string>
+    <string name="school_not_found">រកមិនឃើញសាលារៀន</string>
+    <string name="school_not_found_description">សាលារៀនដែលបានស្នើសុំរកមិនឃើញទេ។</string>
+    <string name="delete_school_confirmation">តើអ្នកពិតជាចង់លុប {name} មែនទេ? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។</string>
+    
+    
+    <string name="overview">ទិដ្ឋភាពទូទៅ</string>
+    <string name="staff">បុគ្គលិក</string>
+    <string name="facilities">គ្រឿងបរិក្ខារ</string>
+    <string name="performance">ការអនុវត្ត</string>
+    <string name="school_director">នាយកសាលារៀន</string>
+    <string name="no_director_assigned">មិនបានកំណត់នាយក</string>
+    <string name="no_director_assigned_warning">សាលារៀននេះត្រូវការនាយកសម្រាប់ការគ្រប់គ្រងត្រឹមត្រូវ។</string>
+    <string name="assign">កំណត់</string>
+    <string name="assign_director">កំណត់នាយក</string>
+    <string name="assign_director_confirmation">កំណត់ {name} ជានាយកនៃ {school}?</string>
+    <string name="select_director_from_list">ជ្រើសរើសនាយកពីបញ្ជីបុគ្គលិក។</string>
+    <string name="administrative_hierarchy">ឋានានុក្រមរដ្ឋបាល</string>
+    <string name="school_information">ព័ត៌មានសាលារៀន</string>
+    <string name="established_year">ឆ្នាំបង្កើត</string>
+    <string name="languages">ភាសា</string>
+    <string name="programs">កម្មវិធី</string>
+    <string name="educational_programs">កម្មវិធីអប់រំ</string>
+    <string name="working_hours">ម៉ោងការងារ</string>
+    <string name="website">គេហទំព័រ</string>
+    <string name="inspection_status">ស្ថានភាពត្រួតពិនិត្យ</string>
+    <string name="last_inspection">ការត្រួតពិនិត្យចុងក្រោយ</string>
+    <string name="next_inspection">ការត្រួតពិនិត្យបន្ទាប់</string>
+    <string name="overdue">ហួសកំណត់</string>
+    <string name="accreditation_status">ស្ថានភាពអាជ្ញាប័ណ្ណ</string>
+    
+    
+    <string name="search_staff">ស្វែងរកបុគ្គលិក...</string>
+    <string name="add_staff">បន្ថែមបុគ្គលិក</string>
+    <string name="no_staff">គ្មានសមាជិកបុគ្គលិក</string>
+    <string name="no_staff_found">រកមិនឃើញបុគ្គលិក</string>
+    <string name="add_staff_to_get_started">បន្ថែមបុគ្គលិកដើម្បីគ្រប់គ្រងសាលារៀនរបស់អ្នក។</string>
+    <string name="try_different_filters">ព្យាយាមកែលម្អតម្រង ឬសំណួរស្វែងរករបស់អ្នក។</string>
+    <string name="total_staff">បុគ្គលិកសរុប</string>
+    <string name="staff_overview">ទិដ្ឋភាពទូទៅបុគ្គលិក</string>
+    <string name="recent_staff">បុគ្គលិកថ្មីៗ</string>
+    <string name="view_all">មើលទាំងអស់</string>
+    <string name="active_staff">បុគ្គលិកសកម្ម</string>
+    <string name="clear_all">សម្អាតទាំងអស់</string>
+    
+    
+    <string name="tree_view">ទស្សនាវដ្ត</string>
+    <string name="list_view">ទស្សនាបញ្ជី</string>
+    <string name="no_hierarchy_data">គ្មានទិន្នន័យឋានានុក្រម</string>
+    <string name="no_hierarchy_description">ព័ត៌មានឋានានុក្រមសាលារៀនមិនមានទេ។</string>
+    <string name="zones">តំបន់</string>
+    <string name="zone">តំបន់</string>
+    <string name="provinces">ខេត្ត</string>
+    <string name="province">ខេត្ត</string>
+    <string name="departments">នាយកដ្ឋាន</string>
+    <string name="department">នាយកដ្ឋាន</string>
+    <string name="districts">ស្រុក</string>
+    <string name="district">ស្រុក</string>
+    <string name="clusters">ចង្កោម</string>
+    <string name="cluster">ចង្កោម</string>
+    <string name="cluster_head">ប្រធានចង្កោម</string>
+    <string name="children">កុមារ</string>
+    
+    
+    <string name="available_facilities">គ្រឿងបរិក្ខារដែលមាន</string>
+    <string name="classroom_information">ព័ត៌មានបន្ទប់រៀន</string>
+    <string name="total_classrooms">បន្ទប់រៀនសរុប</string>
+    <string name="students_per_classroom">សិស្សក្នុងបន្ទប់រៀនមួយ</string>
+    <string name="capacity_analysis">ការវិភាគសមត្ថភាព</string>
+    <string name="current_occupancy">ការកាន់កាប់បច្ចុប្បន្ន</string>
+    <string name="student_capacity">សមត្ថភាពសិស្ស</string>
+    <string name="current_enrollment">ការចុះឈ្មោះបច្ចុប្បន្ន</string>
+    <string name="occupancy_rate">អត្រាកាន់កាប់</string>
+    
+    
+    <string name="key_performance_indicators">សូចនាករការអនុវត្តសំខាន់</string>
+    <string name="average_attendance_rate">អត្រាវត្តមានមធ្យម</string>
+    <string name="teacher_attendance">វត្តមានគ្រូបង្រៀន</string>
+    <string name="student_teacher_ratio">សមាមាត្រសិស្ស-គ្រូបង្រៀន</string>
+    <string name="budget_information">ព័ត៌មានថវិកា</string>
+    <string name="annual_budget">ថវិកាប្រចាំឆ្នាំ</string>
+    
+    
+    <string name="basic_info">ព័ត៌មានមូលដ្ឋាន</string>
+    <string name="location">ទីតាំង</string>
+    <string name="review">ពិនិត្យឡើងវិញ</string>
+    <string name="commune">ឃុំ</string>
+    <string name="enter_commune">បញ្ចូលឃុំ</string>
+    <string name="village">ភូមិ</string>
+    <string name="enter_village">បញ្ចូលភូមិ (ស្រេចចិត្ត)</string>
+    <string name="phone_number">លេខទូរស័ព្ទ</string>
+    <string name="enter_phone_number">បញ្ចូលលេខទូរស័ព្ទ</string>
+    <string name="email">អ៊ីមែល</string>
+    <string name="enter_email">បញ្ចូលអាសយដ្ឋានអ៊ីមែល</string>
+    <string name="established_date">កាលបរិច្ឆេទបង្កើត</string>
+    <string name="active_status">ស្ថានភាពសកម្ម</string>
+    <string name="enter_address">បញ្ចូលអាសយដ្ឋានផ្លូវ</string>
+    <string name="enter_district">បញ្ចូលស្រុក</string>
+    <string name="select_province">ជ្រើសរើសខេត្ត</string>
+    <string name="gps_coordinates">កូអរដោនេ GPS</string>
+    <string name="no_location_set">មិនបានកំណត់ទីតាំង</string>
+    <string name="school_location">ទីតាំងសាលារៀន</string>
+    <string name="director_assignment">ការកំណត់នាយក</string>
+    <string name="select">ជ្រើសរើស</string>
+    <string name="review_school_details">ពិនិត្យព័ត៌មានលម្អិតសាលារៀន</string>
+    <string name="review_description">សូមពិនិត្យព័ត៌មានទាំងអស់មុនពេលបង្កើតសាលារៀន។</string>
+    <string name="location_information">ព័ត៌មានទីតាំង</string>
+    <string name="contact_information">ព័ត៌មានទំនាក់ទំនង</string>
+    <string name="capacity_information">ព័ត៌មានសមត្ថភាព</string>
+    <string name="create_school_confirmation">ចុចបង្កើតដើម្បីបន្ថែមសាលារៀននេះទៅក្នុងប្រព័ន្ធ។</string>
+    <string name="previous">មុន</string>
+    <string name="next">បន្ទាប់</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="done">រួចរាល់</string>
+    <string name="reset">កំណត់ឡើងវិញ</string>
+    <string name="required_field">វាលនេះចាំបាច់</string>
+    
+    
+    <string name="teachers">គ្រូបង្រៀន</string>
+    <string name="teacher">គ្រូបង្រៀន</string>
+    <string name="students">សិស្ស</string>
+    <string name="director">នាយក</string>
+    <string name="student_ratio">សមាមាត្រ</string>
+    <string name="administrator">អ្នកគ្រប់គ្រង</string>
+    <string name="zone_manager">អ្នកគ្រប់គ្រងតំបន់</string>
+    <string name="provincial_manager">អ្នកគ្រប់គ្រងខេត្ត</string>
+    <string name="department_manager">អ្នកគ្រប់គ្រងនាយកដ្ឋាន</string>
+    
+    
+    <string name="present">វត្តមាន</string>
+    <string name="absent">អវត្តមាន</string>
+    <string name="late">យឺត</string>
+    <string name="excused">មានលេស</string>
+    <string name="holiday">ថ្ងៃឈប់</string>
+    <string name="weekend">ចុងសប្តាហ៍</string>
+    
+    
+    <string name="attendance">វត្តមាន</string>
+    <string name="attendance_rate">អត្រាវត្តមាន</string>
+    <string name="check_in">ចុះវត្តមាន</string>
+    <string name="check_out">ចេញវត្តមាន</string>
+    <string name="checked_in">បានចុះវត្តមាន</string>
+    <string name="checked_out">បានចេញវត្តមាន</string>
+    <string name="delete">លុប</string>
+    
+    
+    <string name="leave_management">ការគ្រប់គ្រងច្បាប់</string>
+    <string name="my_leaves">ច្បាប់របស់ខ្ញុំ</string>
+    <string name="leave_request">សំណើសុំច្បាប់</string>
+    <string name="create_leave_request">បង្កើតសំណើសុំច្បាប់</string>
+    <string name="edit_leave_request">កែសម្រួលសំណើសុំច្បាប់</string>
+    <string name="leave_history">ប្រវត្តិច្បាប់</string>
+    <string name="leave_balance">សមតុល្យច្បាប់</string>
+    <string name="leave_approvals">ការអនុម័តច្បាប់</string>
+    <string name="team_leave_calendar">ប្រតិទិនច្បាប់ក្រុម</string>
+    <string name="pending_approvals">ការអនុម័តកំពុងរង់ចាំ</string>
+    <string name="leave_details">ព័ត៌មានលម្អិតច្បាប់</string>
+    
+    
+    <string name="leave_type">ប្រភេទច្បាប់</string>
+    <string name="sick_leave">ច្បាប់ឈប់</string>
+    <string name="annual_leave">ច្បាប់ប្រចាំឆ្នាំ</string>
+    <string name="emergency_leave">ច្បាប់បន្ទាន់</string>
+    <string name="maternity_leave">ច្បាប់សម្រាល</string>
+    <string name="paternity_leave">ច្បាប់បិតា</string>
+    <string name="study_leave">ច្បាប់សិក្សា</string>
+    <string name="unpaid_leave">ច្បាប់គ្មានបៀវត្សរ៍</string>
+    <string name="compassionate_leave">ច្បាប់សម្តែងកំណាន់</string>
+    <string name="religious_leave">ច្បាប់សាសនា</string>
+    
+    
+    <string name="pending">កំពុងរង់ចាំ</string>
+    <string name="approved">បានអនុម័ត</string>
+    <string name="rejected">បានបដិសេធ</string>
+    <string name="cancelled">បានលុបចោល</string>
+    <string name="returned">ត្រូវបានត្រលប់វិញសម្រាប់កែតម្រូវ</string>
+    
+    
+    <string name="reason">មូលហេតុ</string>
+    <string name="reason_placeholder">សូមផ្តល់មូលហេតុសម្រាប់សំណើសុំច្បាប់របស់អ្នក</string>
+    <string name="half_day">ពាក់កណ្តាលថ្ងៃ</string>
+    <string name="morning">ព្រឹក</string>
+    <string name="afternoon">រសៀល</string>
+    <string name="emergency_contact">ទំនាក់ទំនងបន្ទាន់</string>
+    <string name="emergency_phone">ទូរស័ព្ទបន្ទាន់</string>
+    <string name="work_handover">ប្រគល់ការងារ</string>
+    <string name="delegate_to">ប្រគល់ទៅ</string>
+    <string name="attachments">ឯកសារភ្ជាប់</string>
+    <string name="attach_document">ភ្ជាប់ឯកសារ</string>
+    <string name="medical_certificate">វិញ្ញាបនប័ត្រពេទ្យ</string>
+    <string name="supporting_documents">ឯកសារគាំទ្រ</string>
+    
+    
+    <string name="submit_leave_request">ដាក់ស្នើសំណើសុំច្បាប់</string>
+    <string name="approve">អនុម័ត</string>
+    <string name="reject">បដិសេធ</string>
+    <string name="return_for_revision">ត្រលប់វិញសម្រាប់កែតម្រូវ</string>
+    <string name="cancel_leave">លុបចោលច្បាប់</string>
+    <string name="view_leave_details">មើលព័ត៌មានលម្អិតច្បាប់</string>
+    <string name="download_attachment">ទាញយកឯកសារភ្ជាប់</string>
+    <string name="view_approval_workflow">មើលលំហូរការងារអនុម័ត</string>
+    
+    
+    <string name="allocated_days">ថ្ងៃបានកំណត់</string>
+    <string name="used_days">ថ្ងៃបានប្រើ</string>
+    <string name="pending_days">ថ្ងៃកំពុងរង់ចាំ</string>
+    <string name="remaining_days">ថ្ងៃនៅសល់</string>
+    <string name="carry_forward">យកទៅមុខ</string>
+    <string name="utilization">ការប្រើប្រាស់</string>
+    <string name="leave_balance_summary">សង្ខេបសមតុល្យច្បាប់</string>
+    <string name="insufficient_balance">សមតុល្យច្បាប់មិនគ្រប់គ្រាន់</string>
+    
+    
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="month">ខែ</string>
+    <string name="year">ឆ្នាំ</string>
+    <string name="calendar_view">ទស្សនាប្រតិទិន</string>
+    <string name="upcoming_leaves">ច្បាប់នាពេលអនាគត</string>
+    <string name="on_leave_today">ច្បាប់ថ្ងៃនេះ</string>
+    <string name="no_leaves_scheduled">គ្មានច្បាប់បានកំណត់</string>
+    <string name="your_location">ទីតាំងរបស់អ្នក</string>
+    <string name="locate_me">រកទីតាំងខ្ញុំ</string>
+    <string name="location_error">កំហុសទីតាំង</string>
+    <string name="already_completed">បានបញ្ចប់រួចហើយ</string>
+    <string name="check_in_error">ចុះវត្តមានបរាជ័យ</string>
+    <string name="move_closer_hint">សូមផ្លាស់ទីកាន់ជិតសាលារៀនរបស់អ្នក (ក្នុងរង្វង់ 500 ម៉ែត្រ)</string>
+    <string name="automatic_check_in">ចុះវត្តមានស្វ័យប្រវត្តិ</string>
+    <string name="automatic_check_in_trying">កម្មវិធីកំពុងព្យាយាមចុះវត្តមានស្វ័យប្រវត្តិ...</string>
+    <string name="automatic_check_in_success">ចុះវត្តមានស្វ័យប្រវត្តិពេលចូលតំបន់សាលារៀន</string>
+    <string name="not_authenticated">សូមចូលគណនី</string>
+    <string name="location_permission_denied">ការអនុញ្ញាតទីតាំងត្រូវបានបដិសេធ</string>
+    <string name="location_services_disabled">សេវាទីតាំងត្រូវបានបិទ</string>
+    <string name="ready_for_attendance">រួចរាល់សម្រាប់វត្តមាន</string>
+    <string name="location_required">ទីតាំងចាំបាច់</string>
+    <string name="location_access_required">ត្រូវការការចូលប្រើទីតាំង</string>
+    <string name="location_access_description">កម្មវិធីនេះត្រូវការការចូលប្រើទីតាំងដើម្បីផ្ទៀងផ្ទាត់វត្តមានរបស់អ្នកនៅទីតាំងត្រឹមត្រូវ។ ទិន្នន័យទីតាំងរបស់អ្នកត្រូវបានប្រើតែសម្រាប់ការផ្ទៀងផ្ទាត់វត្តមានប៉ុណ្ណោះ និងមិនត្រូវបានចែករំលែកជាមួយភាគីទីបីទេ។</string>
+    <string name="grant_location_permission">ផ្តល់ការអនុញ្ញាតទីតាំង</string>
+    <string name="location_permission_needed">ត្រូវការការអនុញ្ញាតទីតាំង</string>
+    <string name="location_permission_rationale">ការចូលប្រើទីតាំងចាំបាច់សម្រាប់ការផ្ទៀងផ្ទាត់វត្តមាន។ បើគ្មានការអនុញ្ញាតនេះទេ អ្នកនឹងមិនអាចចុះ ឬចេញវត្តមានបានទេ។ សូមផ្តល់ការចូលប្រើទីតាំងដើម្បីបន្តប្រើប្រាស់ប្រព័ន្ធវត្តមាន។</string>
+    <string name="grant_permission">ផ្តល់ការអនុញ្ញាត</string>
+    <string name="outside_school_area">នៅក្រៅតំបន់សាលារៀន</string>
+    <string name="already_checked">បានត្រួតពិនិត្យរួចហើយ</string>
+    
+    <!-- Developer Settings -->
+    <string name="developer_settings">ការកំណត់អ្នកអភិវឌ្ឍន៍</string>
+    <string name="developer_mode">របៀបអ្នកអភិវឌ្ឍន៍</string>
+    <string name="enable_local_testing_features">បើកមុខងារសាកល្បងក្នុងស្រុក</string>
+    <string name="use_local_authentication">ប្រើការផ្ទៀងផ្ទាត់ក្នុងស្រុក</string>
+    <string name="authenticate_against_local_database">ផ្ទៀងផ្ទាត់ប្រឆាំងមូលដ្ឋានទិន្នន័យ SQLite ក្នុងស្រុក</string>
+    <string name="view_test_accounts">មើលគណនីសាកល្បង</string>
+    <string name="test_features">មុខងារសាកល្បង</string>
+    <string name="show_test_account_badge">បង្ហាញទីលេខគណនីសាកល្បង</string>
+    <string name="display_test_indicator">បង្ហាញសូចនាករសាកល្បងលើអេក្រង់ចូលគណនី</string>
+    <string name="database_actions">សកម្មភាពមូលដ្ឋានទិន្នន័យ</string>
+    <string name="seed_data">ទិន្នន័យគ្រាប់ពូជ</string>
+    <string name="clear_data">សម្អាតទិន្នន័យ</string>
+    <string name="api_configuration">ការកំណត់រចនាសម្ព័ន្ធ API</string>
+    <string name="api_url_format">API URL: %s</string>
+    <string name="mode_format">របៀប: %s</string>
+    <string name="local_sqlite">SQLite ក្នុងស្រុក</string>
+    <string name="remote_api">API ពីចម្ងាយ</string>
+    
+    <!-- Settings Screen -->
+    <string name="view_and_edit_profile">មើលនិងកែសម្រួលប្រវត្តិរូបរបស់អ្នក</string>
+    <string name="change_app_language">ប្តូរភាសាកម្មវិធី</string>
+    <string name="manage_notification_preferences">គ្រប់គ្រងចំណូលចិត្តការជូនដំណឹង</string>
+    <string name="biometric_settings">ការកំណត់ជីវមាត្រ</string>
+    <string name="configure_biometric_auth">កំណត់រចនាសម្ព័ន្ធការផ្ទៀងផ្ទាត់ស្នាមម្រាមដៃ/មុខ</string>
+    <string name="advanced_testing_options">ជម្រើសសាកល្បងកម្រិតខ្ពស់</string>
+    <string name="version_format">កំណែ %s</string>
+    
+    
+    <string name="leave_request_submitted">សំណើសុំច្បាប់ត្រូវបានដាក់ស្នើដោយជោគជ័យ</string>
+    <string name="leave_request_approved">សំណើសុំច្បាប់របស់អ្នកត្រូវបានអនុម័ត</string>
+    <string name="leave_request_rejected">សំណើសុំច្បាប់របស់អ្នកត្រូវបានបដិសេធ</string>
+    <string name="leave_request_cancelled">សំណើសុំច្បាប់ត្រូវបានលុបចោល</string>
+    <string name="new_leave_approval_request">សំណើច្បាប់ថ្មីត្រូវការការអនុម័តរបស់អ្នក</string>
+    
+    
+    <string name="approval_workflow">លំហូរការងារអនុម័ត</string>
+    <string name="approver">អ្នកអនុម័ត</string>
+    <string name="approval_status">ស្ថានភាពអនុម័ត</string>
+    <string name="approval_comments">មតិយោបល់អនុម័ត</string>
+    <string name="rejection_reason">មូលហេតុបដិសេធ</string>
+    <string name="approval_level">កម្រិតអនុម័ត</string>
+    <string name="pending_approval">កំពុងរង់ចាំការអនុម័ត</string>
+    <string name="rejected_by">បដិសេធដោយ</string>
+    <string name="approval_date">កាលបរិច្ឆេទអនុម័ត</string>
+    
+    
+    <string name="leave_statistics">ស្ថិតិច្បាប់</string>
+    <string name="total_leaves">ច្បាប់សរុប</string>
+    <string name="leaves_taken_this_month">ច្បាប់បានទទួលខែនេះ</string>
+    <string name="leaves_taken_this_year">ច្បាប់បានទទួលឆ្នាំនេះ</string>
+    <string name="most_used_leave_type">ប្រភេទច្បាប់ដែលប្រើច្រើនបំផុត</string>
+    <string name="average_processing_time">ពេលវេលាដំណើរការមធ្យម</string>
+    <string name="approval_rate">អត្រាអនុម័ត</string>
+    
+    
+    <string name="select_leave_type">សូមជ្រើសរើសប្រភេទច្បាប់</string>
+    <string name="select_dates">សូមជ្រើសរើសកាលបរិច្ឆេទចាប់ផ្តើមនិងបញ្ចប់</string>
+    <string name="provide_reason">សូមផ្តល់មូលហេតុ</string>
+    <string name="invalid_date_range">ជួរកាលបរិច្ឆេទមិនត្រឹមត្រូវ</string>
+    <string name="advance_notice_required">ប្រភេទច្បាប់នេះត្រូវការការជូនដំណឹងជាមុន %d ថ្ងៃ</string>
+    <string name="max_days_exceeded">ហួសបំពាន់ថ្ងៃអតិបរមាដែលអនុញ្ញាតសម្រាប់ប្រភេទច្បាប់នេះ</string>
+    <string name="duplicate_leave_request">សំណើសុំច្បាប់មួយមានហើយសម្រាប់កាលបរិច្ឆេទទាំងនេះ</string>
+    <string name="no_leave_balance">គ្មានសមតុល្យច្បាប់ដែលអាចរកបានសម្រាប់ប្រភេទនេះ</string>
+    <string name="validation_error">កំហុសការផ្ទៀងផ្ទាត់</string>
+    <string name="max_days_per_year">អតិបរមា %d ថ្ងៃក្នុងមួយឆ្នាំ</string>
+    <string name="total_days_value">%s ថ្ងៃ</string>
+    <string name="approved_by">អនុម័តដោយ %s</string>
+    <string name="no_leave_history">គ្មានប្រវត្តិច្បាប់</string>
+    <string name="no_leave_history_description">អ្នកមិនទាន់បានដាក់ស្នើសំណើច្បាប់ណាមួយនៅឡើយទេ។ បង្កើតសំណើច្បាប់ដំបូងរបស់អ្នកដើម្បីចាប់ផ្តើម។</string>
+    <string name="filter_leaves">តម្រងច្បាប់</string>
+    <string name="search">ស្វែងរក</string>
+    <string name="pending_requests_count">%d សំណើកំពុងរង់ចាំការអនុម័តរបស់អ្នក</string>
+    <string name="unknown_user">អ្នកប្រើប្រាស់មិនស្គាល់</string>
+    <string name="emergency">បន្ទាន់</string>
+    <string name="view_details">មើលព័ត៌មានលម្អិត</string>
+    <string name="has_attachments">មានឯកសារភ្ជាប់</string>
+    <string name="submitted_on">ដាក់ស្នើនៅ %s</string>
+    <string name="approve_leave_request">អនុម័តសំណើសុំច្បាប់</string>
+    <string name="approve_leave_confirmation">អនុម័តសំណើ %2$s របស់ %1$s?</string>
+    <string name="optional_comments">មតិយោបល់ស្រេចចិត្តសម្រាប់ការអនុម័ត</string>
+    <string name="reject_leave_request">បដិសេធសំណើសុំច្បាប់</string>
+    <string name="reject_leave_confirmation">បដិសេធសំណើ %2$s របស់ %1$s?</string>
+    <string name="provide_rejection_reason">សូមផ្តល់មូលហេតុសម្រាប់ការបដិសេធ</string>
+    <string name="rejection_reason_required">មូលហេតុបដិសេធជាការចាំបាច់</string>
+    <string name="no_pending_approvals">បានចាប់ទាំងអស់!</string>
+    <string name="no_pending_approvals_description">មិនមានសំណើសុំច្បាប់ដែលកំពុងរង់ចាំការអនុម័តរបស់អ្នកនៅពេលនេះទេ។</string>
+    <string name="on_leave_count">%d ច្បាប់</string>
+    <string name="leaves_on_date">ច្បាប់នៅ %s</string>
+    <string name="and_more_leaves">...និង %d ច្រើនទៀត</string>
+    <string name="in_days">ក្នុង %d ថ្ងៃ</string>
+    <string name="overall_utilization">ការប្រើប្រាស់ទូទៅ</string>
+    <string name="leave_policy_notes">កំណត់ចំណាំគោលនយោបាយច្បាប់</string>
+    <string name="annual_leave_note">• ការចាត់ចែងច្បាប់ប្រចាំឆ្នាំផ្អែកលើឆ្នាំសេវាកម្ម</string>
+    <string name="sick_leave_note">• ច្បាប់ឈប់អាចត្រូវការវិញ្ញាបនប័ត្រពេទ្យសម្រាប់រយៈពេលវែង</string>
+    <string name="carry_forward_note">• ច្បាប់ប្រចាំឆ្នាំដែលមិនបានប្រើអាចត្រូវបាននាំទៅឆ្នាំបន្ទាប់ (អតិបរមា 5 ថ្ងៃ)</string>
+    <string name="exhausted">ហួសលើស</string>
+    <string name="allocated">បានកំណត់</string>
+    <string name="used">បានប្រើ</string>
+    <string name="remaining">នៅសល់</string>
+    <string name="last_updated">បានធ្វើបច្ចុប្បន្នភាព %s</string>
+    <string name="request_leave">សំណើ</string>
+    <string name="no_leave_balance_data">គ្មានទិន្នន័យសមតុល្យ</string>
+    <string name="no_leave_balance_description">ព័ត៌មានសមតុល្យច្បាប់សម្រាប់ %d មិនទាន់មាននៅឡើយទេ។ ទាក់ទងនាយកដ្ឋានធនធានមនុស្ស ឬបង្កើតសំណើច្បាប់ដើម្បីចាប់ផ្តើមសមតុល្យរបស់អ្នក។</string>
+    <string name="select_year">ជ្រើសរើសឆ្នាំ</string>
+    <string name="filter_by_type">តម្រងតាមប្រភេទ</string>
+    <string name="filter_by_status">តម្រងតាមស្ថានភាព</string>
+    <string name="filter_by_date">តម្រងតាមកាលបរិច្ឆេទ</string>
+    <string name="all_types">ប្រភេទទាំងអស់</string>
+    <string name="all_statuses">ស្ថានភាពទាំងអស់</string>
+    <string name="last_30_days">៣០ ថ្ងៃចុងក្រោយ</string>
+    <string name="last_3_months">៣ ខែចុងក្រោយ</string>
+    <string name="last_6_months">៦ ខែចុងក្រោយ</string>
+    <string name="last_year">ឆ្នាំមុន</string>
+    <string name="custom_range">ជួរផ្ទាល់ខ្លួន</string>
+    
+    
+    <string name="document_library">បណ្ណាល័យឯកសារ</string>
+    <string name="upload_document">ផ្ទុកឯកសារ</string>
+    <string name="documents">ឯកសារ</string>
+    <string name="upload">ផ្ទុក</string>
+    <string name="download">ទាញយក</string>
+    <string name="permissions">ការអនុញ្ញាត</string>
+    <string name="all_documents">ឯកសារទាំងអស់</string>
+    <string name="total_documents">ឯកសារសរុប</string>
+    <string name="storage_used">ទំហំផ្ទុកបានប្រើ</string>
+    <string name="grid_view">ទស្សនាក្រឡា</string>
+    <string name="no_documents_yet">មិនទាន់មានឯកសារនៅឡើយ</string>
+    <string name="no_documents_in_category">គ្មានឯកសារក្នុង %s</string>
+    <string name="documents_will_appear_here">ឯកសារនឹងបង្ហាញនៅទីនេះនៅពេលបានផ្ទុក</string>
+    <string name="upload_first_document">ផ្ទុកឯកសារដំបូង</string>
+    <string name="documents_selected">បានជ្រើសរើសឯកសារ %d</string>
+    <string name="clear_selection">សម្អាតការជ្រើសរើស</string>
+    <string name="expired">ផុតកំណត់</string>
+    <string name="remove">យកចេញ</string>
+    
+    
+    <string name="medical_certificates">វិញ្ញាបនប័ត្រពេទ្យ</string>
+    <string name="policies_procedures">គោលនយោបាយ &amp; នីតិវិធី</string>
+    <string name="training_materials">សម្ភារៈបណ្តុះបណ្តាល</string>
+    <string name="performance_evaluations">ការវាយតម្លៃការអនុវត្ត</string>
+    <string name="meeting_minutes">កំណត់ហេតុប្រជុំ</string>
+    <string name="compliance_documents">ឯកសារគតិសុខុមាលភាព</string>
+    <string name="user_manuals">សៀវភៅណែនាំអ្នកប្រើប្រាស់</string>
+    <string name="attendance_records">កំណត់ត្រាវត្តមាន</string>
+    <string name="leave_documents">ឯកសារច្បាប់</string>
+    <string name="mission_reports">របាយការណ៍បេសកកម្ម</string>
+    <string name="financial_documents">ឯកសារហិរញ្ញវត្ថុ</string>
+    <string name="announcements">ការប្រកាស</string>
+    <string name="forms_templates">ទម្រង់ &amp; គំរូ</string>
+    <string name="other">ផ្សេងទៀត</string>
+    
+    
+    <string name="select_files">ជ្រើសរើសឯកសារ</string>
+    <string name="tap_to_select_files">ចុចដើម្បីជ្រើសរើសឯកសារ</string>
+    <string name="supported_file_types">PDF, រូបភាព, ឯកសារ, តារាងបញ្ជី</string>
+    <string name="single_file">ឯកសារតែមួយ</string>
+    <string name="multiple_files">ឯកសារច្រើន</string>
+    <string name="add_more_files">បន្ថែមឯកសារច្រើនទៀត</string>
+    <string name="invalid_file">ឯកសារមិនត្រឹមត្រូវ</string>
+    <string name="document_information">ព័ត៌មានឯកសារ</string>
+    <string name="tags">ស្លាក</string>
+    <string name="add_tag">បន្ថែមស្លាក</string>
+    <string name="add">បន្ថែម</string>
+    <string name="document_settings">ការកំណត់ឯកសារ</string>
+    <string name="public_access">ការចូលប្រើសាធារណៈ</string>
+    <string name="public_access_description">នរណាម្នាក់ក៏អាចមើលឯកសារនេះបាន</string>
+    <string name="expiry_date">កាលបរិច្ឆេទផុតកំណត់</string>
+    <string name="access_permissions">ការអនុញ្ញាតចូលប្រើ</string>
+    <string name="can_download">អាចទាញយក</string>
+    <string name="can_print">អាចបោះពុម្ព</string>
+    <string name="can_share">អាចចែករំលែក</string>
+    <string name="can_annotate">អាចកំណត់ចំណាំ</string>
+    <string name="viewer_roles">តួនាទីអ្នកមើល</string>
+    <string name="uploading">កំពុងផ្ទុក... %d%%</string>
+    <string name="upload_documents_count">ផ្ទុកឯកសារ %d</string>
+    
+    
+    <string name="revision_requested">ស្នើសុំការកែតម្រូវ</string>
+    
+    
+    <string name="submit">ដាក់ស្នើ</string>
+    <string name="continue_action">បន្ត</string>
+    
+    
+    <string name="provincial">ខេត្ត</string>
+    <string name="audit_logs">កំណត់ហេតុសវនកម្ម</string>
+    <string name="security_events">ព្រឹត្តិការណ៍សុវត្ថិភាព</string>
+    <string name="compliance_reports">របាយការណ៍គតិសុខុមាលភាព</string>
+    <string name="reports">របាយការណ៍</string>
+    <string name="todays_status">ស្ថានភាពថ្ងៃនេះ</string>
+    
+    <!-- Common UI strings -->
+    <string name="coming_soon">នាពេលឆាប់ៗ</string>
+    <string name="add_user">បន្ថែមអ្នកប្រើប្រាស់</string>
+    <string name="clear_filter">សម្អាតតម្រង</string>
+    <string name="search_users_placeholder">ស្វែងរកអ្នកប្រើប្រាស់...</string>
+    <string name="search_notifications_placeholder">ស្វែងរកការជូនដំណឹង...</string>
+    <string name="no_users_found">រកមិនឃើញអ្នកប្រើប្រាស់</string>
+    <string name="no_leave_requests">រកមិនឃើញសំណើច្បាប់</string>
+    <string name="inactive">មិនសកម្ម</string>
+    <string name="all_roles">តួនាទីទាំងអស់</string>
+    <string name="filter_by_role">តម្រងតាមតួនាទី</string>
+    <string name="connection_problem">បញ្ហាការតភ្ជាប់</string>
+    <string name="permission_required">ត្រូវការការអនុញ្ញាត</string>
+    <string name="network_error">កំហុសបណ្តាញ</string>
+    <string name="mark_all_read">សម្គាល់ថាបានអានទាំងអស់</string>
+    <string name="try_again">ព្យាយាមម្តងទៀត</string>
+    <string name="warning">ការព្រមាន</string>
+    <string name="leave">ច្បាប់</string>
+    
+    <!-- Attendance specific -->
+    <string name="attendance_status_icon">ស្ថានភាពវត្តមាន</string>
+    <string name="error_icon">កំហុស</string>
+    <string name="distance_from_school_format">ចម្ងាយពីសាលារៀន: %.1fm</string>
+    <string name="inside_area">ក្នុងតំបន់ (✓)</string>
+    <string name="outside_area">ក្រៅតំបន់ (✗)</string>
+    <string name="school_khmer">សាលារៀន</string>
+    <string name="current_location_khmer">ទីតាំងបច្ចុប្បន្ន</string>
+    
+    <!-- Leave management -->
+    <string name="duration_format">រយៈពេល: %1$s - %2$s</string>
+    <string name="reason_format">មូលហេតុ: %s</string>
+    <string name="comments_format">មតិយោបល់: %s</string>
+    <string name="enter_reason_leave">បញ្ចូលមូលហេតុសម្រាប់ច្បាប់</string>
+    <string name="enter_reason_for_leave">បញ្ចូលមូលហេតុសម្រាប់ច្បាប់</string>
+    <string name="no_leave_requests_found">រកមិនឃើញសំណើច្បាប់</string>
+    <string name="comments">មតិយោបល់</string>
+    <string name="submit_request">ដាក់ស្នើសំណើ</string>
+    
+    <!-- App titles and navigation -->
+    <string name="app_title">ប្រព័ន្ធវត្តមានភាគីដៃគូ</string>
+    <string name="select_user_role_login">ជ្រើសរើសតួនាទីអ្នកប្រើប្រាស់ដើម្បីចូល</string>
+    
+    <!-- Notification categories -->
+    <string name="unread">មិនទាន់អាន</string>
+    <string name="approvals">ការអនុម័ត</string>
+    <string name="system">ប្រព័ន្ធ</string>
+    
+    <!-- Biometric -->
+    <string name="biometric_authentication">ការផ្ទៀងផ្ទាត់ជីវមាត្រ</string>
+    <string name="use_biometric_to_authenticate">ប្រើជីវមាត្ររបស់អ្នកដើម្បីផ្ទៀងផ្ទាត់</string>
+    <string name="authenticating">កំពុងផ្ទៀងផ្ទាត់...</string>
+    <string name="authenticate">ផ្ទៀងផ្ទាត់</string>
+    
+    <!-- Test mode -->
+    <string name="test_account_login">ចូលគណនីសាកល្បង</string>
+    <string name="test_mode_active">របៀបសាកល្បងសកម្ម</string>
+    <string name="no_test_data_found">រកមិនឃើញទិន្នន័យសាកល្បង</string>
+    <string name="tap_to_seed_test_accounts">ចុចប៊ូតុងខាងក្រោមដើម្បីបង្កើតគណនីសាកល្បង</string>
+    <string name="seed_test_data">បង្កើតទិន្នន័យសាកល្បង</string>
+    
+    <string name="system_activity">សកម្មភាពប្រព័ន្ធ</string>
+    <string name="no_audit_logs">គ្មានកំណត់ហេតុសវនកម្ម</string>
+    <string name="no_audit_logs_description">មិនទាន់មានកំណត់ហេតុសវនកម្មណាមួយត្រូវបានកត់ត្រានៅឡើយទេ</string>
+    <string name="audit_trail">ដាននៃសវនកម្ម</string>
+    <string name="view_audit_logs">មើលកំណត់ហេតុសវនកម្ម</string>
+    <string name="security_monitoring">ការត្រួតពិនិត្យសុវត្ថិភាព</string>
+    <string name="compliance_management">ការគ្រប់គ្រងគតិសុខុមាលភាព</string>
+    <string name="activity_monitoring">ការត្រួតពិនិត្យសកម្មភាព</string>
+    <string name="generate_compliance_report">បង្កើតរបាយការណ៍គតិសុខុមាលភាព</string>
+    <string name="export_audit_logs">នាំចេញកំណត់ហេតុសវនកម្ម</string>
+    <string name="filter_audit_logs">តម្រងកំណត់ហេតុសវនកម្ម</string>
+    <string name="search_audit_logs">ស្វែងរកកំណត់ហេតុសវនកម្ម...</string>
+    <string name="real_time_monitoring">ការត្រួតពិនិត្យពេលវេលាជាក់ស្តែង</string>
+    <string name="security_alerts">ការជូនដំណឹងសុវត្ថិភាព</string>
+    <string name="anomaly_detection">ការរកឃើញភាពមិនធម្មតា</string>
+    <string name="risk_analysis">ការវិភាគហានិភ័យ</string>
+    <string name="data_retention">ការរក្សាទុកទិន្នន័យ</string>
+    <string name="audit_configuration">ការកំណត់រចនាសម្ព័ន្ធសវនកម្ម</string>
+    <string name="suspicious_activity">សកម្មភាពគួរឱ្យសង្ស័យ</string>
+    <string name="high_risk_events">ព្រឹត្តិការណ៍ហានិភ័យខ្ពស់</string>
+    <string name="compliance_violations">ការរំលោភគតិសុខុមាលភាព</string>
+    <string name="audit_statistics">ស្ថិតិសវនកម្ម</string>
+    <string name="user_activity">សកម្មភាពអ្នកប្រើប្រាស់</string>
+    <string name="system_performance">ការអនុវត្តប្រព័ន្ធ</string>
+    <string name="security_incidents">ឧបទ្ទវហេតុសុវត្ថិភាព</string>
+    <string name="resolution_required">ត្រូវការដំណោះស្រាយ</string>
+    <string name="investigate">ស៊ើបអង្កេត</string>
+    <string name="acknowledge">ទទួលស្គាល់</string>
+    <string name="resolve">ដោះស្រាយ</string>
+    
+    <!-- Basic App Strings -->
+    <string name="login">ចូលគណនី</string>
+    <string name="logout">ចេញពីគណនី</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="profile">ប្រវត្តិរូប</string>
+    <string name="language">ភាសា</string>
+    <string name="notifications">ការជូនដំណឹង</string>
+    
+    <!-- User Management Strings -->
+    <string name="user_management">ការគ្រប់គ្រងអ្នកប្រើប្រាស់</string>
+    <string name="user_details">ព័ត៌មានលម្អិតអ្នកប្រើប្រាស់</string>
+    <string name="create_user">បង្កើតអ្នកប្រើប្រាស់</string>
+    <string name="edit_user">កែសម្រួលអ្នកប្រើប្រាស់</string>
+    <string name="select_account">ជ្រើសរើសគណនី</string>
+    <string name="add_new_user">បន្ថែមអ្នកប្រើប្រាស់ថ្មី</string>
+    <string name="add_first_user">បន្ថែមអ្នកប្រើប្រាស់ដំបូង</string>
+    <string name="delete_user">លុបអ្នកប្រើប្រាស់</string>
+    <string name="user_created">បង្កើតអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="user_updated">បានធ្វើបច្ចុប្បន្នភាពអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="user_deleted">លុបអ្នកប្រើប្រាស់ដោយជោគជ័យ</string>
+    <string name="search_users">ស្វែងរកអ្នកប្រើប្រាស់...</string>
+    <string name="active_users">អ្នកប្រើប្រាស់សកម្ម</string>
+    <string name="inactive_users">អ្នកប្រើប្រាស់មិនសកម្ម</string>
+    <string name="user_status">ស្ថានភាពអ្នកប្រើប្រាស់</string>
+    <string name="activate_user">បើកសកម្មភាពអ្នកប្រើប្រាស់</string>
+    <string name="deactivate_user">បិទសកម្មភាពអ្នកប្រើប្រាស់</string>
+    <string name="reset_password">កំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="password_reset">កំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="password_reset_success">កំណត់ពាក្យសម្ងាត់ឡើងវិញដោយជោគជ័យ</string>
+    <string name="new_password">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="confirm_password">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="passwords_dont_match">ពាក្យសម្ងាត់មិនត្រូវគ្នា</string>
+    <string name="first_name">នាមខ្លួន</string>
+    <string name="last_name">នាមត្រកូល</string>
+    <string name="full_name">ឈ្មោះពេញ</string>
+    <string name="username">ឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="user_role">តួនាទីអ្នកប្រើប្រាស់</string>
+    <string name="organization_id">លេខសម្គាល់អង្គការ</string>
+    <string name="account_status">ស្ថានភាពគណនី</string>
+    <string name="account_information">ព័ត៌មានគណនី</string>
+    <string name="personal_information">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="role_organization">តួនាទី &amp; អង្គការ</string>
+    <string name="user_id">លេខសម្គាល់អ្នកប្រើប្រាស់</string>
+    <string name="department_id">លេខសម្គាល់នាយកដ្ឋាន</string>
+    <string name="created_at">បង្កើតនៅ</string>
+    <string name="updated_at">បានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ</string>
+    <string name="save_changes">រក្សាទុកការផ្លាស់ប្តូរ</string>
+    <string name="cancel_changes">លុបចោលការផ្លាស់ប្តូរ</string>
+    <string name="delete_user_confirmation">តើអ្នកពិតជាចង់លុបអ្នកប្រើប្រាស់នេះមែនទេ? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។</string>
+    <string name="toggle_password_visibility">បើក/បិទការមើលឃើញពាក្យសម្ងាត់</string>
+    <string name="minimum_password_length">អប្បបរមា ៨ តួអក្សរ</string>
+    <string name="invalid_email_format">ទម្រង់អ៊ីមែលមិនត្រឹមត្រូវ</string>
+    <string name="field_required">វាលនេះចាំបាច់</string>
+    <string name="user_active">សកម្ម</string>
+    <string name="user_inactive">មិនសកម្ម</string>
+    <string name="user_can_access_system">អ្នកប្រើប្រាស់អាចចូលប្រើប្រព័ន្ធបាន</string>
+    <string name="user_cannot_access_system">អ្នកប្រើប្រាស់មិនអាចចូលប្រើប្រព័ន្ធបានទេ</string>
+    <string name="failed_to_load_users">បរាជ័យក្នុងការផ្ទុកអ្នកប្រើប្រាស់</string>
+    <string name="failed_to_load_user_details">បរាជ័យក្នុងការផ្ទុកព័ត៌មានលម្អិតអ្នកប្រើប្រាស់</string>
+    <string name="failed_to_create_user">បរាជ័យក្នុងការបង្កើតអ្នកប្រើប្រាស់</string>
+    <string name="failed_to_update_user">បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពអ្នកប្រើប្រាស់</string>
+    <string name="failed_to_delete_user">បរាជ័យក្នុងការលុបអ្នកប្រើប្រាស់</string>
+    <string name="failed_to_reset_password">បរាជ័យក្នុងការកំណត់ពាក្យសម្ងាត់ឡើងវិញ</string>
+    <string name="failed_to_update_user_status">បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពស្ថានភាពអ្នកប្រើប្រាស់</string>
+    
+    <!-- Network Status -->
+    <string name="online">បានភ្ជាប់</string>
+    <string name="offline">មិនមានអ៊ីនធឺណិត</string>
+    </resources>

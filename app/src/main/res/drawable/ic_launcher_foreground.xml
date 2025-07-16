@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FF6200EE"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    <!-- PLP text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,48h6c2.2,0 4,1.8 4,4v0c0,2.2 -1.8,4 -4,4h-6V48z M42,50v4h4c1.1,0 2,-0.9 2,-2v0c0,-1.1 -0.9,-2 -2,-2H42z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,48h2v6h4v2h-6V48z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,48h6c2.2,0 4,1.8 4,4v0c0,2.2 -1.8,4 -4,4h-6V48z M62,50v4h4c1.1,0 2,-0.9 2,-2v0c0,-1.1 -0.9,-2 -2,-2H62z"/>
+</vector>
